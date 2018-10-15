@@ -10,7 +10,7 @@ import cultrue from './modules/cultrue'
 import notice from './modules/notice'
 import recruit from './modules/recruit'
 import supplier from './modules/supplier'
-import main from './modules/main'
+import introduce from './modules/introduce'
 import test from './modules/test'
 import other from './modules/other'
 
@@ -21,14 +21,14 @@ const router = new Router({
     routes: [
         ...home,
         ...test,
-        ...other,
         ...about,
         ...contact,
         ...cultrue,
         ...notice,
         ...recruit,
         ...supplier,
-        ...main
+        ...introduce,
+        ...other
     ]
 })
 

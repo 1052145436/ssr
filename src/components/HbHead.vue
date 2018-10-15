@@ -1,17 +1,18 @@
 <template>
     <div class="common-head">
         <div class="common-inner">
-            <router-link :to="{ path: 'main', query: { }}"><a href="javascript:;" class="logo"><img src="../assets/images/common/logo.png"/></a></router-link>
+            <router-link :to="{ name: 'home' }"><a href="javascript:;" class="logo"><img src="~@/assets/images/common/logo.png"/></a></router-link>
             <div class="nav" id="common-nav">
-                <router-link :to="{ path: 'about', query: { }}"><a href="javascript:;">关于我们</a></router-link>
-                <router-link :to="{ path: 'introduce', query: { }}"><a href="javascript:;">业务介绍</a></router-link>
-                <router-link :to="{ path: 'cultrue', query: { }}"><a href="javascript:;">企业文化</a></router-link>
-                <router-link :to="{ path: 'recruit', query: { }}"><a href="javascript:;">环球寻才</a></router-link>
-                <router-link :to="{ path: 'supplier', query: { }}"><a href="javascript:;">供应商链入驻</a></router-link>
-                <router-link :to="{ path: 'contact', query: { }}"><a href="javascript:;">联系我们</a></router-link>
+                <a href="javascript:;"></a>
+                <router-link :to="{ name: 'about' }">关于我们</router-link>
+                <router-link :to="{ name: 'introduce' }">业务介绍</router-link>
+                <router-link :to="{ name: 'cultrue' }">企业文化</router-link>
+                <router-link :to="{ name: 'recruit' }">环球寻才</router-link>
+                <router-link :to="{ name: 'supplier' }">供应商链入驻</router-link>
+                <router-link :to="{ name: 'contact' }">联系我们</router-link>
             </div>
             <div class="languageDiv" id="languageDiv">
-                <div><span id="language-used">简体中文</span> <img src="../assets/images/index/down_cursor.png"/></div>
+                <div><span id="language-used">简体中文</span> <img src="~@/assets/images/index/down_cursor.png"/></div>
                 <div class="tip" id="languageDiv-tip">
                     <ul>
                         <li>简体中文</li>
@@ -79,6 +80,7 @@
             .nav {
                 text-align: right;
                 padding-right: 120px;
+                margin:0px;
                 a {
                     color: #fff;
                     font-size: 18px;

@@ -6,7 +6,7 @@
 export default [
     {
         name: 'contact',
-        path: '/',
+        path: '/contact',
         meta: {
             title: '联系我们'
         },

@@ -6,7 +6,7 @@
 export default [
     {
         name: 'supplier',
-        path: '/',
+        path: '/supplier',
         meta: {
             title: '供应商链入驻'
         },

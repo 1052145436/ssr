@@ -6,7 +6,7 @@
 export default [
     {
         name: 'notice',
-        path: '/',
+        path: '/notice',
         meta: {
             title: '阅读详情'
         },

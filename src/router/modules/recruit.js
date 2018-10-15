@@ -6,7 +6,7 @@
 export default [
     {
         name: 'recruit',
-        path: '/',
+        path: '/recruit',
         meta: {
             title: '环球寻才'
         },

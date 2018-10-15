@@ -6,7 +6,7 @@
 export default [
     {
         name: 'introduce',
-        path: '/',
+        path: '/introduce',
         meta: {
             title: '业务介绍'
         },

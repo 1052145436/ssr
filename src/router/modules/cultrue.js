@@ -6,7 +6,7 @@
 export default [
     {
         name: 'cultrue',
-        path: '/',
+        path: '/cultrue',
         meta: {
             title: '联系我们'
         },
