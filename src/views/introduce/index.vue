@@ -2,7 +2,7 @@
     <div class="intro-wapper">
         <div class="intro-inner">
             <img src="../../assets/images/introduce/intro_bg1.jpg" alt="" class="intro_bg1">
-            <hb-head headfont="图片"></hb-head>
+            <HbHead headfont="图片"></HbHead>
             <div class="txt-info">
                 <h1>业务介绍</h1>
                 <p>为打造更好的体验式多元化购物平台，Global推出了“PC商城+WAP商城+APP”不同购物模式，不断完善和升级购物流程，注重和提升用户体验。</p>

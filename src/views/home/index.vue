@@ -4,7 +4,8 @@
         <!--<Contact></Contact>-->
         <!--<Cultrue></Cultrue>-->
         <!--<Introduce></Introduce>-->
-        <Notice></Notice>
+        <!--<Notice></Notice>-->
+        <Recruit></Recruit>
     </div>
 </template>
 <script type="text/babel">
@@ -13,13 +14,16 @@
     import Cultrue from '../cultrue/index'
     import Introduce from '../introduce/index'
     import Notice from '../notice/index'
+    import Recruit from '../recruit/index'
+
     export default {
         components: {
             About,
             Contact,
             Cultrue,
             Introduce,
-            Notice
+            Notice,
+            Recruit
         },
         name: 'Index',
         data () {
