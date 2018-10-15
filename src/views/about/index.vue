@@ -180,7 +180,7 @@
         /* 触发 hasLayout */
         zoom: 1;
     }
-    
+
     .main-wapper {
         width: 100%;
         min-width: 1200px;
