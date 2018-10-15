@@ -7,6 +7,7 @@ import home from './modules/home'
 import about from './modules/about'
 import contact from './modules/contact'
 import cultrue from './modules/cultrue'
+import notice from './modules/notice'
 import test from './modules/test'
 import other from './modules/other'
 
@@ -20,7 +21,8 @@ const router = new Router({
         ...other,
         ...about,
         ...contact,
-        ...cultrue
+        ...cultrue,
+        ...notice
     ]
 })
 

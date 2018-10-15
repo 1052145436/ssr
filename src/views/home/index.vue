@@ -2,18 +2,24 @@
     <div class="home">
         <!--<About></About>-->
         <!--<Contact></Contact>-->
-        <Cultrue></Cultrue>
+        <!--<Cultrue></Cultrue>-->
+        <!--<Introduce></Introduce>-->
+        <Notice></Notice>
     </div>
 </template>
 <script type="text/babel">
     import About from '../about/index'
     import Contact from '../contact/index'
     import Cultrue from '../cultrue/index'
+    import Introduce from '../introduce/index'
+    import Notice from '../notice/index'
     export default {
         components: {
             About,
             Contact,
-            Cultrue
+            Cultrue,
+            Introduce,
+            Notice
         },
         name: 'Index',
         data () {
