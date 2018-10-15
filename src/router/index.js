@@ -9,6 +9,7 @@ import contact from './modules/contact'
 import cultrue from './modules/cultrue'
 import notice from './modules/notice'
 import recruit from './modules/recruit'
+import supplier from './modules/supplier'
 import test from './modules/test'
 import other from './modules/other'
 
@@ -24,7 +25,8 @@ const router = new Router({
         ...contact,
         ...cultrue,
         ...notice,
-        ...recruit
+        ...recruit,
+        ...supplier
     ]
 })
 

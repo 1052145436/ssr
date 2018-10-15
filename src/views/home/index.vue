@@ -5,7 +5,8 @@
         <!--<Cultrue></Cultrue>-->
         <!--<Introduce></Introduce>-->
         <!--<Notice></Notice>-->
-        <Recruit></Recruit>
+        <!--<Recruit></Recruit>-->
+        <Supplier></Supplier>
     </div>
 </template>
 <script type="text/babel">
@@ -15,6 +16,7 @@
     import Introduce from '../introduce/index'
     import Notice from '../notice/index'
     import Recruit from '../recruit/index'
+    import Supplier from '../supplier/index'
 
     export default {
         components: {
@@ -23,7 +25,8 @@
             Cultrue,
             Introduce,
             Notice,
-            Recruit
+            Recruit,
+            Supplier
         },
         name: 'Index',
         data () {
