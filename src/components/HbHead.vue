@@ -1,14 +1,14 @@
 <template>
     <div class="common-head">
         <div class="common-inner">
-            <a href="../index.html" class="logo"><img src="../assets/images/common/logo.png"/></a>
+            <router-link :to="{ path: 'main', query: { }}"><a href="javascript:;" class="logo"><img src="../assets/images/common/logo.png"/></a></router-link>
             <div class="nav" id="common-nav">
-                <a href="../about/index.html">关于我们</a>
-                <a href="../introduce/index.html">业务介绍</a>
-                <a href="../cultrue/index.html">企业文化</a>
-                <a href="../recruit/index.html">环球寻才</a>
-                <a href="../supplier/index.html">供应商链入驻</a>
-                <a href="../contact/index.html">联系我们</a>
+                <router-link :to="{ path: 'about', query: { }}"><a href="javascript:;">关于我们</a></router-link>
+                <router-link :to="{ path: 'introduce', query: { }}"><a href="javascript:;">业务介绍</a></router-link>
+                <router-link :to="{ path: 'cultrue', query: { }}"><a href="javascript:;">企业文化</a></router-link>
+                <router-link :to="{ path: 'recruit', query: { }}"><a href="javascript:;">环球寻才</a></router-link>
+                <router-link :to="{ path: 'supplier', query: { }}"><a href="javascript:;">供应商链入驻</a></router-link>
+                <router-link :to="{ path: 'contact', query: { }}"><a href="javascript:;">联系我们</a></router-link>
             </div>
             <div class="languageDiv" id="languageDiv">
                 <div><span id="language-used">简体中文</span> <img src="../assets/images/index/down_cursor.png"/></div>
