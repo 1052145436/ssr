@@ -1,0 +1,29 @@
+{
+  "presets": [
+    ["env", {
+      "loose": false,
+      "modules": "commonjs",
+      "spec": true,
+      "targets": {
+        "browsers": [
+          "last 3 Chrome versions",
+          "last 3 Firefox versions",
+          "Explorer >= 9",
+          "Android >= 6",
+          "Safari >= 10",
+          "Edge >= 12",
+          "iOS >= 10"
+        ]
+      },
+      "useBuiltIns": "usage",
+      "debug": false
+    }],
+    "stage-3"
+  ],
+  "plugins": [
+    "syntax-dynamic-import",
+    "transform-runtime",
+    "transform-vue-jsx"
+  ],
+  "comments": false
+}
