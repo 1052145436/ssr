@@ -6,7 +6,8 @@
         <!--<Introduce></Introduce>-->
         <!--<Notice></Notice>-->
         <!--<Recruit></Recruit>-->
-        <Supplier></Supplier>
+        <!--<Supplier></Supplier>-->
+        <Main></Main>
     </div>
 </template>
 <script type="text/babel">
@@ -17,6 +18,7 @@
     import Notice from '../notice/index'
     import Recruit from '../recruit/index'
     import Supplier from '../supplier/index'
+    import Main from '../main/index'
 
     export default {
         components: {
@@ -26,7 +28,8 @@
             Introduce,
             Notice,
             Recruit,
-            Supplier
+            Supplier,
+            Main
         },
         name: 'Index',
         data () {
