@@ -5,6 +5,7 @@ import { sync } from 'vuex-router-sync'
 import store from '@/store'
 import home from './modules/home'
 import about from './modules/about'
+import contact from './modules/contact'
 import test from './modules/test'
 import other from './modules/other'
 
@@ -16,7 +17,8 @@ const router = new Router({
         ...home,
         ...test,
         ...other,
-        ...about
+        ...about,
+        ...contact
     ]
 })
 

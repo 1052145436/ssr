@@ -1,13 +1,16 @@
 <template>
     <div class="home">
-        <About></About>
+        <!--<About></About>-->
+        <Contact></Contact>
     </div>
 </template>
 <script type="text/babel">
     import About from '../about/index'
+    import Contact from '../contact/index'
     export default {
         components: {
-            About
+            About,
+            Contact
         },
         name: 'Index',
         data () {
