@@ -91,6 +91,7 @@
                     -moz-user-select: none;
                     -ms-user-select: none;
                     user-select: none;
+                    text-decoration: none;
 
                     &:hover {
                         color: #007490;
@@ -133,6 +134,7 @@
                     display: none;
 
                     ul {
+                        list-style: none;
                         li {
                             text-align: right;
                             color: #fff;

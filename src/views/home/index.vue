@@ -1,16 +1,19 @@
 <template>
     <div class="home">
         <!--<About></About>-->
-        <Contact></Contact>
+        <!--<Contact></Contact>-->
+        <Cultrue></Cultrue>
     </div>
 </template>
 <script type="text/babel">
     import About from '../about/index'
     import Contact from '../contact/index'
+    import Cultrue from '../cultrue/index'
     export default {
         components: {
             About,
-            Contact
+            Contact,
+            Cultrue
         },
         name: 'Index',
         data () {
