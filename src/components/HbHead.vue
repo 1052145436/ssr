@@ -1,19 +1,17 @@
 <template>
     <div class="common-head">
         <div class="common-inner">
-            <router-link :to="{ name: 'home' }"><a href="javascript:;" class="logo"><img src="~@/assets/images/common/logo.png"/></a></router-link>
-            <div class="nav" id="common-nav">
-                <a href="javascript:;"></a>
-                <router-link :to="{ name: 'about' }">关于我们</router-link>
-                <router-link :to="{ name: 'introduce' }">业务介绍</router-link>
-                <router-link :to="{ name: 'cultrue' }">企业文化</router-link>
-                <router-link :to="{ name: 'recruit' }">环球寻才</router-link>
-                <router-link :to="{ name: 'supplier' }">供应商链入驻</router-link>
-                <router-link :to="{ name: 'contact' }">联系我们</router-link>
+            <router-link :to="{ name: 'home' }"><a href="javascript:;" class="logo"><img
+                    src="~@/assets/images/common/logo.png"/></a></router-link>
+            <div class="nav">
+                <span v-for="(item,index) in navList" :key="index">
+                    <router-link :to="{ name:item.name}"
+                                 class="navIndex == index?'current':''">{{$t(item.language)}}</router-link>
+                </span>
             </div>
             <div class="languageDiv" id="languageDiv">
-                <div><span id="language-used">简体中文</span> <img src="~@/assets/images/index/down_cursor.png"/></div>
-                <div class="tip" id="languageDiv-tip">
+                <div @click="showLangSwapPanel()"><span>简体中文</span> <img src="~@/assets/images/index/down_cursor.png"/></div>
+                <div class="tip" v-if="isShowLangSwapPanel == true">
                     <ul>
                         <li>简体中文</li>
                         <li>English</li>
@@ -28,14 +26,39 @@
 <script>
     export default {
         data () {
-            return {}
-        },
-        props: {
-            headfont: {
-                type: String,
-                default: '导航'
+            return {
+                navList: [
+                    {
+                        name: 'about',
+                        language: 'message.aboutUs'
+                    },
+                    {
+                        name: 'introduce',
+                        language: 'message.introduce'
+                    },
+                    {
+                        name: 'cultrue',
+                        language: 'message.company_cultrue'
+                    },
+                    {
+                        name: 'recruit',
+                        language: 'message.global_recruit'
+                    },
+                    {
+                        name: 'supplier',
+                        language: 'message.supplier'
+                    },
+                    {
+                        name: 'contact',
+                        language: 'message.contactUs'
+                    }
+                ],
+                isShowLangSwapPanel:false
             }
         },
+        props: [
+            'navIndex'
+        ],
         // 实例初始化最之前，无法获取到data里的数据
         beforeCreate () {
 
@@ -52,7 +75,11 @@
 
         },
         // 相关操作事件
-        methods: {}
+        methods: {
+            showLangSwapPanel () {
+                this.isShowLangSwapPanel =  true;
+            }
+        }
     }
 </script>
 
@@ -80,7 +107,7 @@
             .nav {
                 text-align: right;
                 padding-right: 120px;
-                margin:0px;
+                margin: 0px;
                 a {
                     color: #fff;
                     font-size: 18px;
@@ -133,7 +160,6 @@
                     right: 0px;
                     width: 140px;
                     height: auto;
-                    display: none;
 
                     ul {
                         list-style: none;
