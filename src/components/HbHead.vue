@@ -13,9 +13,7 @@
                 <div @click="showLangSwapPanel()"><span>简体中文</span> <img src="~@/assets/images/index/down_cursor.png"/></div>
                 <div class="tip" v-if="isShowLangSwapPanel == true">
                     <ul>
-                        <li>简体中文</li>
-                        <li>English</li>
-                        <li>Melayu</li>
+                        <li v-for="(item,index) in languageList" :key="index" @click="swapLanguage(item.locale)">{{item.name}}</li>
                     </ul>
                 </div>
             </div>
@@ -27,6 +25,20 @@
     export default {
         data () {
             return {
+                languageList:[
+                    {
+                        name:'简体中文',
+                        locale:'zhCHS'
+                    },
+                    {
+                        name:'English',
+                        locale:'en'
+                    },
+                    {
+                        name:'Melayu',
+                        locale:'Melayu'
+                    }
+                ],
                 navList: [
                     {
                         name: 'about',
@@ -78,6 +90,9 @@
         methods: {
             showLangSwapPanel () {
                 this.isShowLangSwapPanel =  true;
+            },
+            swapLanguage (language){
+                // this.
             }
         }
     }
