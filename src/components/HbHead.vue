@@ -5,8 +5,7 @@
                     src="~@/assets/images/common/logo.png"/></a></router-link>
             <div class="nav">
                 <span v-for="(item,index) in navList" :key="index">
-                    <router-link :to="{ name:item.name}"
-                                 class="navIndex == index?'current':''">{{$t(item.language)}}</router-link>
+                    <router-link :to="{ name:item.name}" :class="navIndex == index?'current':''">{{$t(item.language)}}</router-link>
                 </span>
             </div>
             <div class="languageDiv" id="languageDiv">

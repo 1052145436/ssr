@@ -2,16 +2,16 @@
     <div class="recruit-wapper">
         <div class="recruit-inner">
             <img src="../../assets/images/recruit/recruit_bg.jpg" alt="" class="intro_bg1">
-            <HbHead headfont="图片"></HbHead>
-            <p>梦想舞台,  虚位以待；携手同行，撞出未来。</p>
+            <HbHead :navIndex="3"></HbHead>
+            <p>{{$t('message.stage')}}</p>
         </div>
         <div class="recruit-s1">
             <div class="recruit-s1-inner">
                 <div class="recruit-nav-box">
                     <ul id="recruit-nav">
-                        <li class="current">社会招聘</li>
-                        <li>校园招聘</li>
-                        <li>人才举荐</li>
+                        <li class="current">{{$t('message.socialRecruit')}}</li>
+                        <li>{{$t('message.schoolRecruit')}}</li>
+                        <li>{{$t('message.proffRecruit')}}</li>
                     </ul>
                     <!--<img src="../../assets/images/recruit/icon_cursor.png" alt="" class="recruit-point" id="recruit-point">-->
                 </div>

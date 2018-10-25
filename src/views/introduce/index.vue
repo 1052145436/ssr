@@ -2,16 +2,16 @@
     <div class="intro-wapper">
         <div class="intro-inner">
             <img src="../../assets/images/introduce/intro_bg1.jpg" alt="" class="intro_bg1">
-            <HbHead headfont="图片"></HbHead>
+            <HbHead :navIndex="1"></HbHead>
             <div class="txt-info">
-                <h1>业务介绍</h1>
-                <p>为打造更好的体验式多元化购物平台，Global推出了“PC商城+WAP商城+APP”不同购物模式，不断完善和升级购物流程，注重和提升用户体验。</p>
+                <h1>{{$t('message.busiTitle1')}}</h1>
+                <p>{{$t('message.busiTitle1Desc')}}</p>
             </div>
         </div>
         <div class="intro-s2">
             <div class="intro-s2-inner">
-                <h1>造好物，惠全球的专业跨境购物平台</h1>
-                <p>创立全新的电商理念，根据终端用户的需求进行C2B形式的海外电商销售。以用户需求为导向，根据用户订单需求定制订货，实现基本零存库积压的经营模式。</p>
+                <h1>{{$t('message.busiTitle2')}}</h1>
+                <p>{{$t('message.busiTitle2Desc')}}</p>
             </div>
         </div>
         <div class="intro-s3">
@@ -21,8 +21,8 @@
         </div>
         <div class="intro-s2">
             <div class="intro-s2-inner">
-                <h1>享己心悦，好物无国界</h1>
-                <p>产品涵盖30个品类，总覆盖20多万种商品，产品销往世界各个角落，同时并积极进行产品开发和专研，开拓更多消费品类。</p>
+                <h1>{{$t('message.busiTitle3')}}</h1>
+                <p>{{$t('message.busiTitle3Desc')}}</p>
             </div>
         </div>
         <div class="intro-s4">
@@ -65,7 +65,7 @@
             </div>
         </div>
         <div class="intro-s5">
-            <p>已开放中国台湾、欧美、印尼、印度、马来西亚、泰国、越南等泛东南亚国家，并积极进入中东等新兴市场。</p>
+            <p>{{$t('message.openDesc')}}</p>
             <div class="intro-s5-inner">
                 <img src="../../assets/images/introduce/map.png" alt="" class="s5_bg">
             </div>

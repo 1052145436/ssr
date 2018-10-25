@@ -2,38 +2,38 @@
     <div class="supplier-wapper" id="supplierIndex">
         <div class="supplier-inner">
             <img src="../../assets/images/supplier/supplier_bg.jpg" alt="" class="intro_bg1">
-            <hb-head headfont="图片"></hb-head>
-            <p>合作共赢，互惠互利</p>
+            <HbHead :navIndex="4"></HbHead>
+            <p>{{$t('message.cooperTitle')}}</p>
         </div>
         <div class="supplier-s1">
             <div class="supplier-s1-inner">
                 <div class="job-info-box">
                     <div class="job-social-box" id="job-social-box">
                         <div class="progress-div" id="progress-div">
-                            <h1>申请流程</h1>
+                            <h1>{{$t('message.supplierApplication')}}</h1>
                             <div class="blue-bar"></div>
                             <div class="process-detail">
                                 <div class="process-blue"></div>
                                 <ul>
                                     <li>
                                         <img src="../../assets/images/recruit/circle_1.png" alt="">
-                                        <p>提交申请</p>
+                                        <p>{{$t('message.applicationProcess1')}}</p>
                                     </li>
                                     <li>
                                         <img src="../../assets/images/recruit/circle_2.png" alt="">
-                                        <p>招商洽谈</p>
+                                        <p>{{$t('message.applicationProcess2')}}</p>
                                     </li>
                                     <li>
                                         <img src="../../assets/images/recruit/circle_3.png" alt="">
-                                        <p>合作确定</p>
+                                        <p>{{$t('message.applicationProcess3')}}</p>
                                     </li>
                                     <li>
                                         <img src="../../assets/images/recruit/circle_4.png" alt="">
-                                        <p>产品销售</p>
+                                        <p>{{$t('message.applicationProcess4')}}</p>
                                     </li>
                                     <li>
                                         <img src="../../assets/images/recruit/circle_5.png" alt="">
-                                        <p>订单处理</p>
+                                        <p>{{$t('message.applicationProcess5')}}</p>
                                     </li>
                                 </ul>
                                 <div class="clearfix"></div>
@@ -132,8 +132,8 @@
                                 <div class="supplier-promise">
                                     <div class="read-box"><input type="checkbox"><a href="./notice.html" target="_blank">我已阅读并同意《供应商须知》</a></div>
                                     <div class="btn-box">
-                                        <div class="sure-btn">确定</div>
-                                        <div class="reset-btn">重置</div>
+                                        <div class="sure-btn">{{$t('message.sure')}}</div>
+                                        <div class="reset-btn">{{$t('message.reset')}}</div>
                                     </div>
                                 </div>
                             </div>

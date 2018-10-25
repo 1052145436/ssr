@@ -1,7 +1,7 @@
 <template>
     <div class="home">
         <div style="width:100%;min-width:1200px;background:#000;">
-            <HbHead headfont="图片"></HbHead>
+            <HbHead :navIndex="0"></HbHead>
         </div>
         <div class="main-wapper">
             <div class="main-content">
@@ -527,6 +527,8 @@
                         width: 3px;
                         height: 130px;
                         margin: 0px auto;
+                        top:-35px;
+                        left:1px;
                         .gradient_img {
                             position: absolute;
                             width: 3px;

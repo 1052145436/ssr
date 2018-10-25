@@ -2,7 +2,7 @@
 module.exports = {
     message: {
         aboutUs: 'AboutUs',
-        businessIntroduction: 'Business Introduction',
+        businessIntroduction: 'BusinessIntroduction',
         globalCulture: 'GlobalCulture',
         joinUs: 'JoinUs',
         toBeASupplier: 'ToBeASupplier',
@@ -57,6 +57,42 @@ module.exports = {
         teamTitle2:'Vitality',
         teamTitle3:'Innovate',
         teamStyle:'team style',
-        teamStyleDesc:'Join a rising team and hit the spark of ideas; Walk into a wide world and start the journey of building a dream'
+        teamStyleDesc:'Join a rising team and hit the spark of ideas; Walk into a wide world and start the journey of building a dream',
+        stage:'Dream stage, empty waiting FOR YOU',
+        socialRecruit:'social recruit',
+        schoolRecruit:'school recruit',
+        proffRecruit:'recommend',
+        gzHr:'HR(Guangzhou)',
+        cqHr:'HR(CHongqing)',
+        contactMan:'Name',
+        contactPhone:'Phone',
+        contactEmail:'Email',
+        addressPoint1:'Guangzhou,China',
+        addressPoint2:'Chongqing,China',
+        addressPoint3:'Bangkok,Thailand',
+        addressPoint4:'Kuala Lumpur,Malaysia',
+        officeAddress:'officeAddress',
+        personnelRecruitment:'Personnel recruitment',
+        businessCooperation:'Business Cooperation',
+        cooperTitle:'Cooperation and mutual benefit, mutual benefit',
+        supplierApplication:'Application',
+        applicationProcess1:'Application submit',
+        applicationProcess2:'Discuss the coorperation issue',
+        applicationProcess3:'Formal cooperation',
+        applicationProcess4:'Promoting products',
+        applicationProcess5:'Order disposal',
+        sure:'sure',
+        reset:'reset',
+        busiTital:'Business introduction',
+        busiTiDesc:'In order to create a better experience-based diversified shopping platform, Global launched the "PC Mall + WAP Mall ' +
+            '+ APP" different shopping models, constantly improving and upgrading the shopping process, focusing on and enhance the user experience.',
+        busiTitle2:'Create good things and benefit the global professional cross-border shopping platform',
+        busiTitle2Desc:'Create a new e-commerce concept and conduct overseas e-commerce sales in the form of C2B according to the needs of end users.' +
+            ' Guided by user needs, customized orders based on user order requirements, to achieve a basic zero-stock backlog business model.',
+        busiTitle3:'Enjoy your own heart, good things without borders',
+        busiTitle3Desc:'The products cover 30 categories, covering more than 200,000 kinds of products, and the products are sold to all corners ' +
+            'of the world. At the same time, they actively carry out product development and special research to develop more consumer goods.',
+        openDesc:'It has opened up pan-Southeast Asian countries such as Taiwan, Europe, America, Indonesia, India, Malaysia, Thailand and Vietnam, and has actively entered emerging markets such as the Middle East.'
+
     }
 }

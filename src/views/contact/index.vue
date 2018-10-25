@@ -1,43 +1,45 @@
 <template>
     <div class="home">
         <div style="width:100%;min-width:1200px;background:#000;">
-            <HbHead headfont="图片"></HbHead>
+            <HbHead :navIndex="5"></HbHead>
         </div>
         <div class="contact-wapper">
             <div class="contact-s2">
                 <div class="contact-s2-inner">
-                    <h1>联系我们</h1>
+                    <h1>{{$t('message.contactUs')}}</h1>
                     <div class="ul-box">
                         <ul>
                             <li>
-                                <h3><img src="../../assets/images/contact/icon_man.png" alt="">人事招聘</h3>
-                                <p>广州 HR</p>
-                                <p>联系人：X先生</p>
-                                <p>电话：134566578;</p>
+                                <h3><img src="../../assets/images/contact/icon_man.png" alt="">{{$t('message.personnelRecruitment')}}</h3>
+                                <p>{{$t('message.cqHr')}}</p>
+                                <p>{{$t('message.contactMan')}}：X先生</p>
+                                <p>{{$t('message.contactPhone')}}：134566578;</p>
+                                <p>{{$t('message.contactEmail')}}：134566578;</p>
                             </li>
                             <li>
-                                <h3><img src="../../assets/images/contact/icon_hand.png" alt="">商务合作</h3>
-                                <p>广州 HR</p>
-                                <p>联系人：X先生</p>
-                                <p>电话：134566578;</p>
+                                <h3><img src="../../assets/images/contact/icon_hand.png" alt="">{{$t('message.businessCooperation')}}</h3>
+                                <p>{{$t('message.gzHr')}}</p>
+                                <p>{{$t('message.contactMan')}}：X先生</p>
+                                <p>{{$t('message.contactPhone')}}：134566578;</p>
+                                <p>{{$t('message.contactEmail')}}：134566578;</p>
                             </li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>
-                    <h1>办公地址</h1>
+                    <h1>{{$t('message.officeAddress')}}</h1>
                     <div class="ul-box">
                         <ul>
                             <li>
-                                <h3><img src="../../assets/images/contact/icon_point.png" alt="">中国·广州</h3>
+                                <h3><img src="../../assets/images/contact/icon_point.png" alt="">{{$t('message.addressPoint1')}}</h3>
                             </li>
                             <li>
-                                <h3><img src="../../assets/images/contact/icon_point.png" alt="">中国·重庆</h3>
+                                <h3><img src="../../assets/images/contact/icon_point.png" alt="">{{$t('message.addressPoint2')}}</h3>
                             </li>
                             <li>
-                                <h3><img src="../../assets/images/contact/icon_point.png" alt="">泰国·曼谷</h3>
+                                <h3><img src="../../assets/images/contact/icon_point.png" alt="">{{$t('message.addressPoint3')}}</h3>
                             </li>
                             <li>
-                                <h3><img src="../../assets/images/contact/icon_point.png" alt="">马来西亚·吉隆坡</h3>
+                                <h3><img src="../../assets/images/contact/icon_point.png" alt="">{{$t('message.addressPoint4')}}</h3>
                             </li>
                         </ul>
                     </div>
