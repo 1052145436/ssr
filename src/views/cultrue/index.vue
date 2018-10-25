@@ -5,14 +5,14 @@
                 <img src="../../assets/images/cultrue/img1.jpg" alt="" class="intro_bg1">
                 <HbHead headfont="图片"></HbHead>
                 <div class="txt-info">
-                    <h1>企业文化</h1>
-                    <p>专业·凝聚·简单·高效</p>
+                    <h1>{{$t('message.globalCulture')}}</h1>
+                    <p>{{$t('message.cultrueTitle')}}</p>
                 </div>
             </div>
             <div class="cultrue-s2">
                 <div class="cultrue-s2-inner">
-                    <h1>团队理念</h1>
-                    <p>活力，协作，创新</p>
+                    <h1>{{$t('message.team')}}</h1>
+                    <p>{{$t('message.teamTitle')}}</p>
                 </div>
             </div>
             <div class="cultrue-s3">
@@ -21,23 +21,23 @@
                     <ul>
                         <li>
                             <img src="../../assets/images/cultrue/img3.jpg" alt="">
-                            <p>活力</p>
+                            <p>{{$t('message.teamTitle1')}}</p>
                         </li>
                         <li>
                             <img src="../../assets/images/cultrue/img4.jpg" alt="">
-                            <p>协作</p>
+                            <p>{{$t('message.teamTitle2')}}</p>
                         </li>
                         <li>
                             <img src="../../assets/images/cultrue/img5.jpg" alt="">
-                            <p>创新</p>
+                            <p>{{$t('message.teamTitle3')}}</p>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="cultrue-s2">
                 <div class="cultrue-s2-inner">
-                    <h1>团队风采</h1>
-                    <p>加入一个年轻的团队，碰撞思想的火花；<br/>走进一个广阔的世界，开启筑梦的旅途。</p>
+                    <h1>{{$t('message.teamStyle')}}</h1>
+                    <p>{{$t('message.teamStyleDesc')}}</p>
                 </div>
             </div>
             <div class="cultrue-s4">

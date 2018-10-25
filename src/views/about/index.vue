@@ -66,44 +66,50 @@
                     <div class="develop-box">
                         <div class="develop-item">
                             <div class="develop-left">
-                                <div>2018.09</div>
-                                <p>开放<strong>中东市场</strong></p>
+                                <div>{{$t('message.t11')}}</div>
+                                <p>{{$t('message.t12')}}<strong>{{$t('message.t13')}}</strong></p>
                             </div>
                         </div>
                         <div class="develop-item">
                             <div class="develop-right">
-                                <div>2018.08</div>
-                                <p><strong>商城购物APP</strong>正式上线</p>
+                                <div>{{$t('message.t21')}}</div>
+                                <p><strong>{{$t('message.t22')}}</strong>{{$t('message.t23')}}</p>
                             </div>
                         </div>
                         <div class="develop-item">
                             <div class="develop-left">
-                                <div>2018.07</div>
-                                <p><strong>独立商城平台</strong>上线</p>
+                                <div>{{$t('message.t31')}}</div>
+                                <p><strong>{{$t('message.t32')}}</strong>{{$t('message.t33')}}</p>
                             </div>
                         </div>
                         <div class="develop-item">
                             <div class="develop-right">
-                                <div>2018.06</div>
-                                <p>成立<strong>马来西亚海外仓</strong>分公司</p>
+                                <div>{{$t('message.t41')}}</div>
+                                <p>{{$t('message.t42')}}<strong>{{$t('message.t43')}}</strong></p>
                             </div>
                         </div>
                         <div class="develop-item">
                             <div class="develop-left">
-                                <div>2018.04</div>
-                                <p>和多家物流公司达成<strong>战略合作</strong></p>
+                                <div>{{$t('message.t51')}}</div>
+                                <p>{{$t('message.t52')}}<strong>{{$t('message.t53')}}</strong></p>
                             </div>
                         </div>
                         <div class="develop-item">
                             <div class="develop-right">
-                                <div>2018.03</div>
-                                <p>开拓<strong>台湾、新马泰</strong>等<strong>泛东南亚市场</strong></p>
+                                <div>{{$t('message.t61')}}</div>
+                                <p><strong>{{$t('message.t62')}}{{$t('message.t63')}}</strong></p>
                             </div>
                         </div>
                         <div class="develop-item">
                             <div class="develop-left">
-                                <div>2018.01</div>
-                                <p><strong>重庆格洛博</strong>公司成立</p>
+                                <div>{{$t('message.t71')}}</div>
+                                <p><strong>{{$t('message.t72')}}</strong>{{$t('message.t73')}}</p>
+                            </div>
+                        </div>
+                        <div class="develop-item">
+                            <div class="develop-right">
+                                <div>{{$t('message.t81')}}</div>
+                                <p><strong>{{$t('message.t82')}}{{$t('message.t83')}}</strong></p>
                             </div>
                         </div>
                         <div class="clearfix"></div>
@@ -386,7 +392,7 @@
                 position: relative;
                 z-index: 2;
                 padding-top: 90px;
-                height: 2618px;
+                height:auto;
 
                 h1 {
                     font-size: 50px;
