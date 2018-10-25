@@ -1,50 +1,50 @@
 <template>
     <div class="home">
         <div style="width:100%;min-width:1200px;background:#000;">
-            <HbHead :navIndex="5"></HbHead>
+            <HbHead headfont="图片"></HbHead>
         </div>
         <div class="contact-wapper">
             <div class="contact-s2">
                 <div class="contact-s2-inner">
-                    <h1>{{$t('message.contactUs')}}</h1>
+                    <h1>{{$t('about.contactUs')}}</h1>
                     <div class="ul-box">
                         <ul>
                             <li>
-                                <h3><img src="../../assets/images/contact/icon_man.png" alt="">{{$t('message.personnelRecruitment')}}</h3>
-                                <p>{{$t('message.cqHr')}}</p>
-                                <p>{{$t('message.contactMan')}}：X先生</p>
-                                <p>{{$t('message.contactPhone')}}：134566578;</p>
-                                <p>{{$t('message.contactEmail')}}：134566578;</p>
+                                <h3><img src="~@/assets/img/contact/icon_man.png">{{$t('about.personnelRecruitment')}}</h3>
+                                <p>{{$t('about.cqHr')}}</p>
+                                <p>{{$t('about.contactMan')}}：X先生</p>
+                                <p>{{$t('about.contactPhone')}}：134566578;</p>
+                                <p>{{$t('about.contactEmail')}}：134566578;</p>
                             </li>
                             <li>
-                                <h3><img src="../../assets/images/contact/icon_hand.png" alt="">{{$t('message.businessCooperation')}}</h3>
-                                <p>{{$t('message.gzHr')}}</p>
-                                <p>{{$t('message.contactMan')}}：X先生</p>
-                                <p>{{$t('message.contactPhone')}}：134566578;</p>
-                                <p>{{$t('message.contactEmail')}}：134566578;</p>
+                                <h3><img src="~@/assets/img/contact/icon_hand.png">{{$t('about.businessCooperation')}}</h3>
+                                <p>{{$t('about.gzHr')}}</p>
+                                <p>{{$t('about.contactMan')}}：X先生</p>
+                                <p>{{$t('about.contactPhone')}}：134566578;</p>
+                                <p>{{$t('about.contactEmail')}}：134566578;</p>
                             </li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>
-                    <h1>{{$t('message.officeAddress')}}</h1>
+                    <h1>{{$t('about.officeAddress')}}</h1>
                     <div class="ul-box">
                         <ul>
                             <li>
-                                <h3><img src="../../assets/images/contact/icon_point.png" alt="">{{$t('message.addressPoint1')}}</h3>
+                                <h3><img src="~@/assets/img/contact/icon_point.png">{{$t('about.addressPoint1')}}</h3>
                             </li>
                             <li>
-                                <h3><img src="../../assets/images/contact/icon_point.png" alt="">{{$t('message.addressPoint2')}}</h3>
+                                <h3><img src="~@/assets/img/contact/icon_point.png">{{$t('about.addressPoint2')}}</h3>
                             </li>
                             <li>
-                                <h3><img src="../../assets/images/contact/icon_point.png" alt="">{{$t('message.addressPoint3')}}</h3>
+                                <h3><img src="~@/assets/img/contact/icon_point.png">{{$t('about.addressPoint3')}}</h3>
                             </li>
                             <li>
-                                <h3><img src="../../assets/images/contact/icon_point.png" alt="">{{$t('message.addressPoint4')}}</h3>
+                                <h3><img src="~@/assets/img/contact/icon_point.png">{{$t('about.addressPoint4')}}</h3>
                             </li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>
-                    <!--<img src="../../assets/images/contact/map.jpg" alt="" class="map-img lazyload">-->
+                    <!--<img src="~@/assets/img/contact/map.jpg" class="map-img lazyload">-->
                     <div class="contact_m_Right" style="margin-top:30px;">
                         <div class="contact_m_Right" style="margin-top:30px;">
                             <div id="allmap"></div>
@@ -62,8 +62,8 @@
     </div>
 </template>
 <script type="text/babel">
-    import HbHead from '../../components/HbHead'
-    import introVersion from '../../components/introVersion'
+    import HbHead from '@/components/HbHead'
+    import introVersion from '@/components/introVersion'
 
     export default {
         components: {

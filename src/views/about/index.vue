@@ -6,153 +6,157 @@
         <div class="main-wapper">
             <div class="main-content">
                 <div class="session1">
-                    <img src="../../assets/images/index/world.jpg" alt="" class="bg">
-                    <div class="title">{{$t('message.topic')}}</div>
+                    <img src="~@/assets/img/index/world.jpg" class="bg">
+                    <div class="title">{{ $t('about.topic') }}</div>
                 </div>
             </div>
-            <div class="session2">
-                <ul>
+            <div class="session2" style="background-color: #002035;">
+                <ul class="clearfix">
                     <li>
                         <div class="img-box">
-                            <img src="../../assets/images/index/icon_time.png" alt="" class="icon_time">
+                            <img src="~@/assets/img/index/icon_time.png" class="icon_time">
                         </div>
-                        <div class="txt-box"><strong>2018</strong><span>{{$t('message.year')}}</span></div>
-                        <p>{{$t('message.established')}}</p>
+                        <div class="txt-box"><strong>2018</strong><span>{{ $t('about.year') }}</span></div>
+                        <p>{{ $t('about.established') }}</p>
                     </li>
                     <li>
                         <div class="img-box">
-                            <img src="../../assets/images/index/icon_money.png" alt="" class="icon_money">
+                            <img src="~@/assets/img/index/icon_money.png" class="icon_money">
                         </div>
-                        <div class="txt-box"><strong>100</strong><span>{{$t('message.billion')}}</span></div>
-                        <p>{{$t('message.annualTurnover')}}</p>
+                        <div class="txt-box"><strong>100</strong><span>{{ $t('about.billion') }}</span></div>
+                        <p>{{ $t('about.annualTurnover') }}</p>
                     </li>
                     <li>
                         <div class="img-box">
-                            <img src="../../assets/images/index/icon_area.png" alt="" class="icon_area">
+                            <img src="~@/assets/img/index/icon_area.png" class="icon_area">
                         </div>
                         <div class="txt-box"><strong>10</strong><em>+</em></div>
-                        <p>{{$t('message.businessCoverageArea')}}</p>
+                        <p>{{ $t('about.businessCoverageArea') }}</p>
                     </li>
                     <li>
                         <div class="img-box">
-                            <img src="../../assets/images/index/icon_type.png" alt="" class="icon_type">
+                            <img src="~@/assets/img/index/icon_type.png" class="icon_type">
                         </div>
                         <div class="txt-box"><strong>30</strong><em>+</em></div>
-                        <p>{{$t('message.commodityCategory')}}</p>
+                        <p>{{$t('about.commodityCategory')}}</p>
                     </li>
                     <li>
                         <div class="img-box">
-                            <img src="../../assets/images/index/icon_goods.png" alt="" class="icon_goods">
+                            <img src="~@/assets/img/index/icon_goods.png" class="icon_goods">
                         </div>
                         <div class="txt-box"><strong>20</strong><em>+</em></div>
-                        <p>{{$t('message.numberOfMallItems')}}</p>
+                        <p>{{$t('about.numberOfMallItems')}}</p>
                     </li>
                 </ul>
-                <div class="clearfix"></div>
+                <div class="clear:both;height:1px;"></div>
             </div>
-            <div class="session4">
+            <div class="session4" style="position:relative;background:#00355d;">
                 <div class="s4-bg-box">
                     <div class="color-bg"></div>
-                    <img src="../../assets/images/about/about_bg.jpg" alt="" class="s4-bg">
+                    <img src="~@/assets/img/about/about_bg.jpg" class="s4-bg">
                 </div>
                 <div class="session4-inner">
-                    <h1>{{$t('message.aboutGlobal')}}</h1>
+                    <h1>{{$t('about.global')}}</h1>
                     <div class="white-bar"></div>
                     <div class="content-p">
-                        {{$t('message.aboutGlobalDesc')}}
+                        {{$t('about.globalDesc')}}
                     </div>
-                    <h1>{{$t('message.history')}}</h1>
+                    <h1>{{$t('about.history')}}</h1>
                     <div class="white-bar"></div>
                     <div class="develop-box">
                         <div class="develop-item">
                             <div class="develop-left">
-                                <div>{{$t('message.t11')}}</div>
-                                <p>{{$t('message.t12')}}<strong>{{$t('message.t13')}}</strong></p>
+                                <div>{{$t('about.t11')}}</div>
+                                <p>{{$t('about.t12')}}<strong>{{$t('about.t13')}}</strong></p>
                             </div>
                         </div>
                         <div class="develop-item">
                             <div class="develop-right">
-                                <div>{{$t('message.t21')}}</div>
-                                <p><strong>{{$t('message.t22')}}</strong>{{$t('message.t23')}}</p>
+                                <div>{{$t('about.t21')}}</div>
+                                <p><strong>{{$t('about.t22')}}</strong>{{$t('about.t23')}}</p>
                             </div>
                         </div>
                         <div class="develop-item">
                             <div class="develop-left">
-                                <div>{{$t('message.t31')}}</div>
-                                <p><strong>{{$t('message.t32')}}</strong>{{$t('message.t33')}}</p>
+                                <div>{{$t('about.t31')}}</div>
+                                <p><strong>{{$t('about.t32')}}</strong>{{$t('about.t33')}}</p>
                             </div>
                         </div>
                         <div class="develop-item">
                             <div class="develop-right">
-                                <div>{{$t('message.t41')}}</div>
-                                <p>{{$t('message.t42')}}<strong>{{$t('message.t43')}}</strong></p>
+                                <div>{{$t('about.t41')}}</div>
+                                <p>{{$t('about.t42')}}<strong>{{$t('about.t43')}}</strong></p>
                             </div>
                         </div>
                         <div class="develop-item">
                             <div class="develop-left">
-                                <div>{{$t('message.t51')}}</div>
-                                <p>{{$t('message.t52')}}<strong>{{$t('message.t53')}}</strong></p>
+                                <div>{{$t('about.t51')}}</div>
+                                <p>{{$t('about.t52')}}<strong>{{$t('about.t53')}}</strong></p>
                             </div>
                         </div>
                         <div class="develop-item">
                             <div class="develop-right">
-                                <div>{{$t('message.t61')}}</div>
-                                <p><strong>{{$t('message.t62')}}{{$t('message.t63')}}</strong></p>
+                                <div>{{$t('about.t61')}}</div>
+                                <p><strong>{{$t('about.t62')}}{{$t('about.t63')}}</strong></p>
                             </div>
                         </div>
                         <div class="develop-item">
                             <div class="develop-left">
-                                <div>{{$t('message.t71')}}</div>
-                                <p><strong>{{$t('message.t72')}}</strong>{{$t('message.t73')}}</p>
+                                <div>{{$t('about.t71')}}</div>
+                                <p><strong>{{$t('about.t72')}}</strong>{{$t('about.t73')}}</p>
                             </div>
                         </div>
                         <div class="develop-item">
                             <div class="develop-right">
-                                <div>{{$t('message.t81')}}</div>
-                                <p><strong>{{$t('message.t82')}}{{$t('message.t83')}}</strong></p>
+                                <div>{{$t('about.t81')}}</div>
+                                <p><strong>{{$t('about.t82')}}{{$t('about.t83')}}</strong></p>
                             </div>
                         </div>
                         <div class="clearfix"></div>
                         <div class="gradient-box">
-                            <img src="../../assets/images/about/gradient_line.png" alt="" class="gradient_img">
+                            <img src="~@/assets/img/about/gradient_line.png" class="gradient_img">
                         </div>
                     </div>
-                    <h1>{{$t('message.partner')}}</h1>
+                    <h1>{{$t('about.partner')}}</h1>
                     <div class="white-bar"></div>
-                    <ul class="item-list">
-                        <li>
-                            <div class="img-box">
-                                <img src="../../assets/images/index/icon_facebook.png" alt="" class="lazyload">
-                            </div>
-                            <p>Facebook</p>
-                        </li>
-                        <li>
-                            <div class="img-box">
-                                <img src="../../assets/images/index/icon_ins.png" alt="" class="lazyload">
-                            </div>
-                            <p>Instgram</p>
-                        </li>
-                        <li>
-                            <div class="img-box">
-                                <img src="../../assets/images/index/icon_youtube.png" alt="" class="lazyload">
-                            </div>
-                            <p>Youtube</p>
-                        </li>
-                        <li>
-                            <div class="img-box">
-                                <img src="../../assets/images/index/icon_google.png" alt="" class="lazyload">
-                            </div>
-                            <p>Google</p>
-                        </li>
-                    </ul>
-                    <div class="foot-version">Copyright ©Global, All Rights Reserved.</div>
+                    <div style="clear:both;position:relative;">
+                        <ul class="item-list">
+                            <li>
+                                <div class="img-box">
+                                    <img src="~@/assets/img/index/icon_facebook.png" class="lazyload">
+                                </div>
+                                <p>Facebook</p>
+                            </li>
+                            <li>
+                                <div class="img-box">
+                                    <img src="~@/assets/img/index/icon_ins.png" class="lazyload">
+                                </div>
+                                <p>Instgram</p>
+                            </li>
+                            <li>
+                                <div class="img-box">
+                                    <img src="~@/assets/img/index/icon_youtube.png" class="lazyload">
+                                </div>
+                                <p>Youtube</p>
+                            </li>
+                            <li>
+                                <div class="img-box">
+                                    <img src="~@/assets/img/index/icon_google.png" class="lazyload">
+                                </div>
+                                <p>Google</p>
+                            </li>
+                        </ul>
+                        <div style="clear:both;height:100px;"></div>
+                        <div class="foot-version">Copyright ©Global, All Rights Reserved.</div>
+                    </div>
+                    <div style="clear:both;height:1px;"></div>
                 </div>
             </div>
         </div>
     </div>
 </template>
 <script type="text/babel">
-    import HbHead from '../../components/HbHead'
+    import HbHead from '@/components/HbHead'
 
     export default {
         components: {
@@ -221,7 +225,10 @@
             min-width: 980px;
             padding: 80px;
             margin: 0px auto;
+            position:relative;
+            z-index:2;
             ul {
+                list-style: none;
                 li {
                     float: left;
                     width: 20%;
@@ -321,6 +328,7 @@
                 .item-list {
                     width: 1200px;
                     margin: 100px auto 0px auto;
+                    list-style: none;
                     li {
                         width: 25%;
                         text-align: center;
@@ -375,7 +383,7 @@
                 background: #00355d;
                 left: 50%;
                 margin-left: -960px;
-                top: 0px;
+                bottom: 0px;
                 .color-bg {
                     width: 1920px;
                     height: 1600px;
@@ -387,12 +395,11 @@
                     vertical-align: top;
                 }
             }
-
             .session4-inner {
                 position: relative;
                 z-index: 2;
                 padding-top: 90px;
-                height:auto;
+                height: auto;
 
                 h1 {
                     font-size: 50px;
@@ -426,6 +433,7 @@
                 .item-list {
                     width: 1200px;
                     margin: 100px auto 0px auto;
+                    list-style: none;
                     li {
                         width: 25%;
                         text-align: center;
@@ -465,7 +473,7 @@
                             width: 325px;
                             float: left;
                             div {
-                                background: url(../../assets/images/about/big_ball.png) no-repeat right center;
+                                background: url(~@/assets/img/about/big_ball.png) no-repeat right center;
                                 text-align: right;
                                 font-size: 46px;
                                 line-height: 46px;
@@ -495,7 +503,7 @@
                             width: 323px;
                             float: right;
                             div {
-                                background: url(../../assets/images/about/small_ball.png) no-repeat left center;
+                                background: url(~@/assets/img/about/small_ball.png) no-repeat left center;
                                 text-align: left;
                                 font-size: 46px;
                                 line-height: 46px;

@@ -1,73 +1,73 @@
 <template>
     <div class="intro-wapper">
         <div class="intro-inner">
-            <img src="../../assets/images/introduce/intro_bg1.jpg" alt="" class="intro_bg1">
-            <HbHead :navIndex="1"></HbHead>
+            <img src="~@/assets/img/introduce/intro_bg1.jpg" class="intro_bg1">
+            <HbHead headfont="图片"></HbHead>
             <div class="txt-info">
-                <h1>{{$t('message.busiTitle1')}}</h1>
-                <p>{{$t('message.busiTitle1Desc')}}</p>
+                <h1>{{$t('about.busiTitle1')}}</h1>
+                <p>{{$t('about.busiTitle1Desc')}}</p>
             </div>
         </div>
         <div class="intro-s2">
             <div class="intro-s2-inner">
-                <h1>{{$t('message.busiTitle2')}}</h1>
-                <p>{{$t('message.busiTitle2Desc')}}</p>
+                <h1>{{$t('about.busiTitle2')}}</h1>
+                <p>{{$t('about.busiTitle2Desc')}}</p>
             </div>
         </div>
         <div class="intro-s3">
             <div class="intro-s3-inner">
-                <img src="../../assets/images/introduce/intro_bg2.jpg" alt="" class="s3_bg">
+                <img src="~@/assets/img/introduce/intro_bg2.jpg" class="s3_bg">
             </div>
         </div>
         <div class="intro-s2">
             <div class="intro-s2-inner">
-                <h1>{{$t('message.busiTitle3')}}</h1>
-                <p>{{$t('message.busiTitle3Desc')}}</p>
+                <h1>{{$t('about.busiTitle3')}}</h1>
+                <p>{{$t('about.busiTitle3Desc')}}</p>
             </div>
         </div>
         <div class="intro-s4">
             <div class="intro-s4-inner">
-                <img src="../../assets/images/introduce/intro_bg3.jpg" alt="" class="s4_bg">
+                <img src="~@/assets/img/introduce/intro_bg3.jpg" class="s4_bg">
                 <ul>
                     <li>
-                        <img src="../../assets/images/introduce/icon3.png" alt="" class="intro-s4-out">
-                        <img src="../../assets/images/introduce/icon3_hover.png" alt="" class="intro-s4-on">
+                        <img src="~@/assets/img/introduce/icon3.png" class="intro-s4-out">
+                        <img src="~@/assets/img/introduce/icon3_hover.png" class="intro-s4-on">
                     </li>
                     <li>
-                        <img src="../../assets/images/introduce/icon1.png" alt="" class="intro-s4-out">
-                        <img src="../../assets/images/introduce/icon1_hover.png" alt="" class="intro-s4-on">
+                        <img src="~@/assets/img/introduce/icon1.png" class="intro-s4-out">
+                        <img src="~@/assets/img/introduce/icon1_hover.png" class="intro-s4-on">
                     </li>
                     <li>
-                        <img src="../../assets/images/introduce/icon2.png" alt="" class="intro-s4-out">
-                        <img src="../../assets/images/introduce/icon2_hover.png" alt="" class="intro-s4-on">
+                        <img src="~@/assets/img/introduce/icon2.png" class="intro-s4-out">
+                        <img src="~@/assets/img/introduce/icon2_hover.png" class="intro-s4-on">
                     </li>
                     <li>
-                        <img src="../../assets/images/introduce/icon4.png" alt="" class="intro-s4-out">
-                        <img src="../../assets/images/introduce/icon4_hover.png" alt="" class="intro-s4-on">
+                        <img src="~@/assets/img/introduce/icon4.png" class="intro-s4-out">
+                        <img src="~@/assets/img/introduce/icon4_hover.png" class="intro-s4-on">
                     </li>
                     <li>
-                        <img src="../../assets/images/introduce/icon6.png" alt="" class="intro-s4-out">
-                        <img src="../../assets/images/introduce/icon6_hover.png" alt="" class="intro-s4-on">
+                        <img src="~@/assets/img/introduce/icon6.png" class="intro-s4-out">
+                        <img src="~@/assets/img/introduce/icon6_hover.png" class="intro-s4-on">
                     </li>
                     <li>
-                        <img src="../../assets/images/introduce/icon5.png" alt="" class="intro-s4-out">
-                        <img src="../../assets/images/introduce/icon5_hover.png" alt="" class="intro-s4-on">
+                        <img src="~@/assets/img/introduce/icon5.png" class="intro-s4-out">
+                        <img src="~@/assets/img/introduce/icon5_hover.png" class="intro-s4-on">
                     </li>
                     <li>
-                        <img src="../../assets/images/introduce/icon7.png" alt="" class="intro-s4-out">
-                        <img src="../../assets/images/introduce/icon7_hover.png" alt="" class="intro-s4-on">
+                        <img src="~@/assets/img/introduce/icon7.png" class="intro-s4-out">
+                        <img src="~@/assets/img/introduce/icon7_hover.png" class="intro-s4-on">
                     </li>
                     <li>
-                        <img src="../../assets/images/introduce/icon8.png" alt="" class="intro-s4-out">
-                        <img src="../../assets/images/introduce/icon8_hover.png" alt="" class="intro-s4-on">
+                        <img src="~@/assets/img/introduce/icon8.png" class="intro-s4-out">
+                        <img src="~@/assets/img/introduce/icon8_hover.png" class="intro-s4-on">
                     </li>
                 </ul>
             </div>
         </div>
         <div class="intro-s5">
-            <p>{{$t('message.openDesc')}}</p>
+            <p>{{$t('about.openDesc')}}</p>
             <div class="intro-s5-inner">
-                <img src="../../assets/images/introduce/map.png" alt="" class="s5_bg">
+                <img src="~@/assets/img/introduce/map.png" class="s5_bg">
             </div>
         </div>
         <div style="width:100%;min-width:1200px;background:#000;">
@@ -76,8 +76,8 @@
     </div>
 </template>
 <script type="text/babel">
-    import HbHead from '../../components/HbHead'
-    import introVersion from '../../components/introVersion'
+    import HbHead from '@/components/HbHead'
+    import introVersion from '@/components/introVersion'
 
     export default {
         components: {
@@ -227,6 +227,7 @@
                     right: -150px;
                     top: 70px;
                     text-align: right;
+                    list-style: none;
                     li {
                         position: relative;
                         width: 138px;

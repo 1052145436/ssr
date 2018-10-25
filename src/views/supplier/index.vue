@@ -1,139 +1,141 @@
 <template>
     <div class="supplier-wapper" id="supplierIndex">
         <div class="supplier-inner">
-            <img src="../../assets/images/supplier/supplier_bg.jpg" alt="" class="intro_bg1">
-            <HbHead :navIndex="4"></HbHead>
-            <p>{{$t('message.cooperTitle')}}</p>
+            <img src="~@/assets/img/supplier/supplier_bg.jpg" class="intro_bg1">
+            <hb-head headfont="图片"></hb-head>
+            <p>{{$t('about.cooperTitle')}}</p>
         </div>
         <div class="supplier-s1">
             <div class="supplier-s1-inner">
                 <div class="job-info-box">
                     <div class="job-social-box" id="job-social-box">
                         <div class="progress-div" id="progress-div">
-                            <h1>{{$t('message.supplierApplication')}}</h1>
+                            <h1>{{$t('about.supplierApplication')}}</h1>
                             <div class="blue-bar"></div>
                             <div class="process-detail">
                                 <div class="process-blue"></div>
                                 <ul>
                                     <li>
-                                        <img src="../../assets/images/recruit/circle_1.png" alt="">
-                                        <p>{{$t('message.applicationProcess1')}}</p>
+                                        <img src="~@/assets/img/recruit/circle_1.png">
+                                        <p>{{$t('about.applicationProcess1')}}</p>
                                     </li>
                                     <li>
-                                        <img src="../../assets/images/recruit/circle_2.png" alt="">
-                                        <p>{{$t('message.applicationProcess2')}}</p>
+                                        <img src="~@/assets/img/recruit/circle_2.png">
+                                        <p>{{$t('about.applicationProcess2')}}</p>
                                     </li>
                                     <li>
-                                        <img src="../../assets/images/recruit/circle_3.png" alt="">
-                                        <p>{{$t('message.applicationProcess3')}}</p>
+                                        <img src="~@/assets/img/recruit/circle_3.png">
+                                        <p>{{$t('about.applicationProcess3')}}</p>
                                     </li>
                                     <li>
-                                        <img src="../../assets/images/recruit/circle_4.png" alt="">
-                                        <p>{{$t('message.applicationProcess4')}}</p>
+                                        <img src="~@/assets/img/recruit/circle_4.png">
+                                        <p>{{$t('about.applicationProcess4')}}</p>
                                     </li>
                                     <li>
-                                        <img src="../../assets/images/recruit/circle_5.png" alt="">
-                                        <p>{{$t('message.applicationProcess5')}}</p>
+                                        <img src="~@/assets/img/recruit/circle_5.png">
+                                        <p>{{$t('about.applicationProcess5')}}</p>
                                     </li>
                                 </ul>
                                 <div class="clearfix"></div>
                             </div>
                         </div>
-                        <h1>供应商注册</h1>
-                        <div class="blue-bar"></div>
-                        <div class="social-detail">
-                            <div class="social-nav-box">
-                                <ul class="socail-nav" id="socail-nav">
-                                    <li class="current">基础信息</li>
-                                    <li>联系方式</li>
-                                    <li>资质证明</li>
-                                    <li>供应商概况</li>
-                                </ul>
-                                <div class="social-nav-bar" id="social-nav-bar"></div>
-                            </div>
-                            <div class="form-info">
-                                <div class="horse-box">
-                                    <ul>
-                                        <li><label><i>*</i>公司电话：</label><input type="text" placeholder="请输入"></li>
-                                        <li><label><i>*</i>法人/经营者：</label><input type="text" placeholder="请输入"></li>
-                                        <li><label><i>*</i>统一社会信用代码/注册号：</label><input type="text" placeholder="请输入"></li>
-                                        <li><label><i>*</i>公司成立时间：</label><input type="text" placeholder="请输入"></li>
-                                        <li><label><i>*</i>公司地址：</label><input type="text" placeholder="请输入"></li>
-                                        <li><label><i>*</i>公司简历：</label><input type="text" placeholder="请输入"></li>
+                        <div style="display:none;">
+                            <h1>供应商注册</h1>
+                            <div class="blue-bar"></div>
+                            <div class="social-detail">
+                                <div class="social-nav-box">
+                                    <ul class="socail-nav" id="socail-nav">
+                                        <li class="current">基础信息</li>
+                                        <li>联系方式</li>
+                                        <li>资质证明</li>
+                                        <li>供应商概况</li>
                                     </ul>
+                                    <div class="social-nav-bar" id="social-nav-bar"></div>
                                 </div>
-                                <div class="horse-box">
-                                    <ul>
-                                        <li><label><i>*</i>联系人姓名：</label><input type="text" placeholder="请输入"></li>
-                                        <li><label>联系人座机电话：</label><input type="text" placeholder="请输入"></li>
-                                        <li><label><i>*</i>联系人手机号码：</label><input type="text" placeholder="请输入"></li>
-                                        <li><label><i>*</i>联系人邮箱地址：</label><input type="text" placeholder="请输入"></li>
-                                        <li><label><i>*</i>联系人QQ：</label><input type="text" placeholder="请输入"></li>
-                                    </ul>
-                                </div>
-                                <div class="horse-box">
-                                    <ul>
-                                        <li><label><i>*</i>营业执照：</label>
-                                            <div class="upload-box">
-                                                <img src="../../assets/images/recruit/upload.png" alt="">
-                                                <span>上传文件</span>
-                                            </div></li>
-                                        <li><label><i>*</i>规模类型：</label><input type="text" placeholder="请输入"></li>
-                                        <li><label><i>*</i>供应商类型：</label><input type="text" placeholder="请输入"></li>
-                                        <li><label><i>*</i>从业人数：</label><input type="text" placeholder="请输入"></li>
-                                        <li><label><i>*</i>是否为长期经营：</label><input type="text" placeholder="请输入"></li>
-                                    </ul>
-                                </div>
-                                <div class="horse-box">
-                                    <ul>
-                                        <li><label><i>*</i>主要经营类目：</label>
-                                            <div class="check-box">
-                                                <label><input type="checkbox" name="category" value="男装">男装</label>
-                                                <label><input type="checkbox" name="category" value="男鞋">男鞋</label>
-                                                <label><input type="checkbox" name="category" value="男包">男包</label>
-                                                <label><input type="checkbox" name="category" value="女装">女装</label>
-                                                <label><input type="checkbox" name="category" value="女鞋">女鞋</label>
-                                                <label><input type="checkbox" name="category" value="女包">女包</label>
-                                                <label><input type="checkbox" name="category" value="配饰">配饰</label>
-                                                <label><input type="checkbox" name="category" value="婴童">婴童</label>
-                                                <label><input type="checkbox" name="category" value="玩具">玩具</label>
-                                                <label><input type="checkbox" name="category" value="美妆">美妆</label>
-                                                <label><input type="checkbox" name="category" value="家居服">家居服</label>
-                                                <label><input type="checkbox" name="category" value="家居装饰">家居装饰</label>
-                                                <label><input type="checkbox" name="category" value="生活用品">生活用品</label>
-                                                <label><input type="checkbox" name="category" value="餐具&收纳">餐具&收纳</label>
-                                                <label><input type="checkbox" name="category" value="床品&浴室用品">床品&浴室用品</label>
-                                                <label><input type="checkbox" name="category" value="手机&数码">手机&数码</label>
-                                                <label><input type="checkbox" name="category" value="家用电器">家用电器</label>
-                                                <label><input type="checkbox" name="category" value="运动服饰">运动服饰</label>
-                                                <label><input type="checkbox" name="category" value="运动配饰">运动配饰</label>
-                                                <label><input type="checkbox" name="category" value="运动鞋">运动鞋</label>
-                                                <label><input type="checkbox" name="category" value="内衣">内衣</label>
-                                                <label><input type="checkbox" name="category" value="婚纱">婚纱</label>
-                                                <label><input type="checkbox" name="category" value="婴童用品">婴童用品</label>
-                                                <label><input type="checkbox" name="category" value="童装">童装</label>
-                                                <label><input type="checkbox" name="category" value="婚庆用品">婚庆用品</label>
-                                            </div>
-                                        </li>
-                                        <li><label>合作过的电商平台：</label><input type="text" placeholder="请输入"></li>
-                                        <li><label><i>*</i>主要销售国家和地区：</label><input type="text" placeholder="请输入"></li>
-                                        <li><label>正在合作的电商平台：</label><input type="text" placeholder="请输入"></li>
-                                        <li><label>最近一年销售金额：</label><input type="text" placeholder="请输入"></li>
-                                        <li><label><i>*</i>每月产品上新数量：</label><input type="text" placeholder="请输入"></li>
-                                        <li>
-                                            <label><i>*</i>经营商品图片上传：</label>
-                                            <div class="upload-box">
-                                                <img src="../../assets/images/recruit/upload.png" alt="">
-                                                <span>上传文件</span>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="supplier-promise">
-                                    <div class="read-box"><input type="checkbox"><a href="./notice.html" target="_blank">我已阅读并同意《供应商须知》</a></div>
-                                    <div class="btn-box">
-                                        <div class="sure-btn">{{$t('message.sure')}}</div>
-                                        <div class="reset-btn">{{$t('message.reset')}}</div>
+                                <div class="form-info">
+                                    <div class="horse-box">
+                                        <ul>
+                                            <li><label><i>*</i>公司电话：</label><input type="text" placeholder="请输入"></li>
+                                            <li><label><i>*</i>法人/经营者：</label><input type="text" placeholder="请输入"></li>
+                                            <li><label><i>*</i>统一社会信用代码/注册号：</label><input type="text" placeholder="请输入"></li>
+                                            <li><label><i>*</i>公司成立时间：</label><input type="text" placeholder="请输入"></li>
+                                            <li><label><i>*</i>公司地址：</label><input type="text" placeholder="请输入"></li>
+                                            <li><label><i>*</i>公司简历：</label><input type="text" placeholder="请输入"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="horse-box">
+                                        <ul>
+                                            <li><label><i>*</i>联系人姓名：</label><input type="text" placeholder="请输入"></li>
+                                            <li><label>联系人座机电话：</label><input type="text" placeholder="请输入"></li>
+                                            <li><label><i>*</i>联系人手机号码：</label><input type="text" placeholder="请输入"></li>
+                                            <li><label><i>*</i>联系人邮箱地址：</label><input type="text" placeholder="请输入"></li>
+                                            <li><label><i>*</i>联系人QQ：</label><input type="text" placeholder="请输入"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="horse-box">
+                                        <ul>
+                                            <li><label><i>*</i>营业执照：</label>
+                                                <div class="upload-box">
+                                                    <img src="~@/assets/img/recruit/upload.png">
+                                                    <span>上传文件</span>
+                                                </div></li>
+                                            <li><label><i>*</i>规模类型：</label><input type="text" placeholder="请输入"></li>
+                                            <li><label><i>*</i>供应商类型：</label><input type="text" placeholder="请输入"></li>
+                                            <li><label><i>*</i>从业人数：</label><input type="text" placeholder="请输入"></li>
+                                            <li><label><i>*</i>是否为长期经营：</label><input type="text" placeholder="请输入"></li>
+                                        </ul>
+                                    </div>
+                                    <div class="horse-box">
+                                        <ul>
+                                            <li><label><i>*</i>主要经营类目：</label>
+                                                <div class="check-box">
+                                                    <label><input type="checkbox" name="category" value="男装">男装</label>
+                                                    <label><input type="checkbox" name="category" value="男鞋">男鞋</label>
+                                                    <label><input type="checkbox" name="category" value="男包">男包</label>
+                                                    <label><input type="checkbox" name="category" value="女装">女装</label>
+                                                    <label><input type="checkbox" name="category" value="女鞋">女鞋</label>
+                                                    <label><input type="checkbox" name="category" value="女包">女包</label>
+                                                    <label><input type="checkbox" name="category" value="配饰">配饰</label>
+                                                    <label><input type="checkbox" name="category" value="婴童">婴童</label>
+                                                    <label><input type="checkbox" name="category" value="玩具">玩具</label>
+                                                    <label><input type="checkbox" name="category" value="美妆">美妆</label>
+                                                    <label><input type="checkbox" name="category" value="家居服">家居服</label>
+                                                    <label><input type="checkbox" name="category" value="家居装饰">家居装饰</label>
+                                                    <label><input type="checkbox" name="category" value="生活用品">生活用品</label>
+                                                    <label><input type="checkbox" name="category" value="餐具&收纳">餐具&收纳</label>
+                                                    <label><input type="checkbox" name="category" value="床品&浴室用品">床品&浴室用品</label>
+                                                    <label><input type="checkbox" name="category" value="手机&数码">手机&数码</label>
+                                                    <label><input type="checkbox" name="category" value="家用电器">家用电器</label>
+                                                    <label><input type="checkbox" name="category" value="运动服饰">运动服饰</label>
+                                                    <label><input type="checkbox" name="category" value="运动配饰">运动配饰</label>
+                                                    <label><input type="checkbox" name="category" value="运动鞋">运动鞋</label>
+                                                    <label><input type="checkbox" name="category" value="内衣">内衣</label>
+                                                    <label><input type="checkbox" name="category" value="婚纱">婚纱</label>
+                                                    <label><input type="checkbox" name="category" value="婴童用品">婴童用品</label>
+                                                    <label><input type="checkbox" name="category" value="童装">童装</label>
+                                                    <label><input type="checkbox" name="category" value="婚庆用品">婚庆用品</label>
+                                                </div>
+                                            </li>
+                                            <li><label>合作过的电商平台：</label><input type="text" placeholder="请输入"></li>
+                                            <li><label><i>*</i>主要销售国家和地区：</label><input type="text" placeholder="请输入"></li>
+                                            <li><label>正在合作的电商平台：</label><input type="text" placeholder="请输入"></li>
+                                            <li><label>最近一年销售金额：</label><input type="text" placeholder="请输入"></li>
+                                            <li><label><i>*</i>每月产品上新数量：</label><input type="text" placeholder="请输入"></li>
+                                            <li>
+                                                <label><i>*</i>经营商品图片上传：</label>
+                                                <div class="upload-box">
+                                                    <img src="~@/assets/img/recruit/upload.png">
+                                                    <span>上传文件</span>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="supplier-promise">
+                                        <div class="read-box"><input type="checkbox"><a href="./notice.html" target="_blank">我已阅读并同意《供应商须知》</a></div>
+                                        <div class="btn-box">
+                                            <div class="sure-btn">确定</div>
+                                            <div class="reset-btn">重置</div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -149,8 +151,8 @@
     </div>
 </template>
 <script type="text/babel">
-    import HbHead from '../../components/HbHead'
-    import introVersion from '../../components/introVersion'
+    import HbHead from '@/components/HbHead'
+    import introVersion from '@/components/introVersion'
 
     export default {
         components: {
@@ -240,29 +242,38 @@
                                 height:auto;
                                 li{
                                     position:relative;
-                                    width:200px;
-                                    height:200px;
+                                    display:table;
+                                    width:180px;
+                                    height:180px;
+                                    padding:10px;
                                     float:left;
                                     margin-right:46px;
                                     overflow:hidden;
                                     background-color: #fff;
+                                    vertical-align: middle;
+                                    text-align:center;
 
                                     p{
+                                        display:table-cell;
                                         position:relative;
                                         z-index: 2;
-                                        line-height:200px;
+                                        line-height:40px;
                                         text-align:center;
-                                        font-size:36px;
+                                        font-size:30px;
                                         color:#525257;
                                         font-weight:100;
+                                        vertical-align: middle;
+                                        text-align:center;
                                     }
 
                                     img{
                                         position:absolute;
                                         width:200px;
                                         height:200px;
-                                        left:0;
-                                        top:0;
+                                        left:50%;
+                                        top:50%;
+                                        margin-left:-100px;
+                                        margin-top:-100px;
                                     }
                                 }
                             }

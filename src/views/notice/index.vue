@@ -102,8 +102,8 @@
     </div>
 </template>
 <script type="text/babel">
-    import HbHead from '../../components/HbHead'
-    import introVersion from '../../components/introVersion'
+    import HbHead from '@/components/HbHead'
+    import introVersion from '@/components/introVersion'
 
     export default {
         components: {

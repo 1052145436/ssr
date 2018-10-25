@@ -1,19 +1,19 @@
 <template>
     <div class="recruit-wapper">
         <div class="recruit-inner">
-            <img src="../../assets/images/recruit/recruit_bg.jpg" alt="" class="intro_bg1">
-            <HbHead :navIndex="3"></HbHead>
-            <p>{{$t('message.stage')}}</p>
+            <img src="~@/assets/img/recruit/recruit_bg.jpg" class="intro_bg1">
+            <HbHead headfont="图片"></HbHead>
+            <p>{{$t('about.stage')}}</p>
         </div>
         <div class="recruit-s1">
             <div class="recruit-s1-inner">
                 <div class="recruit-nav-box">
                     <ul id="recruit-nav">
-                        <li class="current">{{$t('message.socialRecruit')}}</li>
-                        <li>{{$t('message.schoolRecruit')}}</li>
-                        <li>{{$t('message.proffRecruit')}}</li>
+                        <li class="current">{{$t('about.socialRecruit')}}</li>
+                        <li>{{$t('about.schoolRecruit')}}</li>
+                        <li>{{$t('about.proffRecruit')}}</li>
                     </ul>
-                    <!--<img src="../../assets/images/recruit/icon_cursor.png" alt="" class="recruit-point" id="recruit-point">-->
+                    <!--<img src="~@/assets/img/recruit/icon_cursor.png" class="recruit-point" id="recruit-point">-->
                 </div>
                 <div class="job-info-box">
                     <div class="job-social-box" id="job-social-box">
@@ -24,23 +24,23 @@
                                 <div class="process-blue"></div>
                                 <ul>
                                     <li>
-                                        <img src="../../assets/images/recruit/circle_1.png" alt="">
+                                        <img src="~@/assets/img/recruit/circle_1.png">
                                         <p>提交申请</p>
                                     </li>
                                     <li>
-                                        <img src="../../assets/images/recruit/circle_2.png" alt="">
+                                        <img src="~@/assets/img/recruit/circle_2.png">
                                         <p>笔试环节</p>
                                     </li>
                                     <li>
-                                        <img src="../../assets/images/recruit/circle_3.png" alt="">
+                                        <img src="~@/assets/img/recruit/circle_3.png">
                                         <p>面试确定</p>
                                     </li>
                                     <li>
-                                        <img src="../../assets/images/recruit/circle_4.png" alt="">
+                                        <img src="~@/assets/img/recruit/circle_4.png">
                                         <p>录用通知</p>
                                     </li>
                                     <li>
-                                        <img src="../../assets/images/recruit/circle_5.png" alt="">
+                                        <img src="~@/assets/img/recruit/circle_5.png">
                                         <p>正式入职</p>
                                     </li>
                                 </ul>
@@ -172,7 +172,7 @@
                                         <li><label>推荐理由：</label><textarea type="text" placeholder="请输入"></textarea></li>
                                         <li><label>千里马简历：</label>
                                             <div class="upload-box">
-                                                <img src="../../assets/images/recruit/upload.png" alt="">
+                                                <img src="~@/assets/img/recruit/upload.png">
                                                 <span>上传文件</span>
                                             </div>
                                         </li>
@@ -192,8 +192,8 @@
     </div>
 </template>
 <script type="text/babel">
-    import HbHead from '../../components/HbHead'
-    import introVersion from '../../components/introVersion'
+    import HbHead from '@/components/HbHead'
+    import introVersion from '@/components/introVersion'
 
     export default {
         components: {
@@ -489,6 +489,7 @@
                                         margin-top:35px;
                                         margin-bottom:25px;
                                         font-weight: 200;
+                                        text-decoration: none;
 
                                         &:hover{
                                             background-color: #0074a2;

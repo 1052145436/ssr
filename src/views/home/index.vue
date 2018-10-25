@@ -6,82 +6,82 @@
         <div class="main-wapper">
             <div class="main-content">
                 <div class="session1">
-                    <img src="../../assets/images/index/world.jpg" alt="" class="bg">
-                    <div class="title">{{$t('message.topic')}}</div>
+                    <img src="~@/assets/img/index/world.jpg" class="bg">
+                    <div class="title">{{ $t('about.topic') }}</div>
                 </div>
             </div>
             <div class="session2">
                 <ul>
                     <li>
                         <div class="img-box">
-                            <img src="../../assets/images/index/icon_time.png" alt="" class="icon_time lazyload">
+                            <img src="~@/assets/img/index/icon_time.png" class="icon_time lazyload">
                         </div>
-                        <div class="txt-box"><strong>2018</strong><span>{{$t('message.year')}}</span></div>
-                        <p>{{$t('message.established')}}</p>
+                        <div class="txt-box"><strong>2018</strong><span>{{ $t('about.year') }}</span></div>
+                        <p>{{ $t('about.established') }}</p>
                     </li>
                     <li>
                         <div class="img-box">
-                            <img src="../../assets/images/index/icon_money.png" alt="" class="icon_money lazyload">
+                            <img src="~@/assets/img/index/icon_money.png" class="icon_money lazyload">
                         </div>
-                        <div class="txt-box"><strong>100</strong><span>{{$t('message.billion')}}</span></div>
-                        <p>{{$t('message.annualTurnover')}}</p>
+                        <div class="txt-box"><strong>100</strong><span>{{ $t('about.billion') }}</span></div>
+                        <p>{{ $t('about.annualTurnover') }}</p>
                     </li>
                     <li>
                         <div class="img-box">
-                            <img src="../../assets/images/index/icon_area.png" alt="" class="icon_area lazyload">
+                            <img src="~@/assets/img/index/icon_area.png" class="icon_area lazyload">
                         </div>
                         <div class="txt-box"><strong>10</strong><em>+</em></div>
-                        <p>{{$t('message.businessCoverageArea')}}</p>
+                        <p>{{ $t('about.businessCoverageArea') }}</p>
                     </li>
                     <li>
                         <div class="img-box">
-                            <img src="../../assets/images/index/icon_type.png" alt="" class="icon_type lazyload">
+                            <img src="~@/assets/img/index/icon_type.png" class="icon_type lazyload">
                         </div>
                         <div class="txt-box"><strong>30</strong><em>+</em></div>
-                        <p>{{$t('message.commodityCategory')}}</p>
+                        <p>{{ $t('about.commodityCategory') }}</p>
                     </li>
                     <li>
                         <div class="img-box">
-                            <img src="../../assets/images/index/icon_goods.png" alt="" class="icon_goods lazyload">
+                            <img src="~@/assets/img/index/icon_goods.png" class="icon_goods lazyload">
                         </div>
                         <div class="txt-box"><strong>20</strong><em>+</em></div>
-                        <p>{{$t('message.numberOfMallItems')}}</p>
+                        <p>{{ $t('about.numberOfMallItems') }}</p>
                     </li>
                 </ul>
                 <div class="clearfix"></div>
             </div>
             <div class="session3">
-                <img src="../../assets/images/index/company.jpg" alt="" class="bg lazyload">
+                <img src="~@/assets/img/index/company.jpg" class="bg lazyload">
                 <div class="session3-inner">
-                    <h1>{{$t('message.aboutGlobal')}}</h1>
+                    <h1>{{ $t('about.global') }}</h1>
                     <div class="white-bar"></div>
                     <div class="content-p">
-                        {{$t('message.aboutGlobalDesc')}}
+                        {{ $t('about.globalDesc') }}
                     </div>
-                    <h1>{{$t('message.partner')}}</h1>
+                    <h1>{{ $t('about.partner') }}</h1>
                     <div class="white-bar"></div>
                     <ul class="item-list">
                         <li>
                             <div class="img-box">
-                                <img src="../../assets/images/index/icon_facebook.png" alt="" class="lazyload">
+                                <img src="~@/assets/img/index/icon_facebook.png" class="lazyload">
                             </div>
                             <p>Facebook</p>
                         </li>
                         <li>
                             <div class="img-box">
-                                <img src="../../assets/images/index/icon_ins.png" alt="" class="lazyload">
+                                <img src="~@/assets/img/index/icon_ins.png" class="lazyload">
                             </div>
                             <p>Instgram</p>
                         </li>
                         <li>
                             <div class="img-box">
-                                <img src="../../assets/images/index/icon_youtube.png" alt="" class="lazyload">
+                                <img src="~@/assets/img/index/icon_youtube.png" class="lazyload">
                             </div>
                             <p>Youtube</p>
                         </li>
                         <li>
                             <div class="img-box">
-                                <img src="../../assets/images/index/icon_google.png" alt="" class="lazyload">
+                                <img src="~@/assets/img/index/icon_google.png" class="lazyload">
                             </div>
                             <p>Google</p>
                         </li>
@@ -94,8 +94,8 @@
     </div>
 </template>
 <script type="text/babel">
-    import HbHead from '../../components/HbHead'
-    import introVersion from '../../components/introVersion'
+    import HbHead from '@/components/HbHead'
+    import introVersion from '@/components/introVersion'
 
     export default {
         components: {
@@ -406,7 +406,7 @@
                             width:325px;
                             float:left;
                             div{
-                                background:url(../../assets/images/about/big_ball.png) no-repeat right center;
+                                background:url(~@/assets/img/about/big_ball.png) no-repeat right center;
                                 text-align:right;
                                 font-size:46px;
                                 line-height:46px;
@@ -436,7 +436,7 @@
                             width:323px;
                             float:right;
                             div{
-                                background:url(../../assets/images/about/small_ball.png) no-repeat left center;
+                                background:url(~@/assets/img/about/small_ball.png) no-repeat left center;
                                 text-align:left;
                                 font-size:46px;
                                 line-height:46px;

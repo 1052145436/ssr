@@ -11,7 +11,6 @@ import notice from './modules/notice'
 import recruit from './modules/recruit'
 import supplier from './modules/supplier'
 import introduce from './modules/introduce'
-import test from './modules/test'
 import other from './modules/other'
 
 Vue.use(Router)
@@ -20,7 +19,6 @@ const router = new Router({
     mode: 'history',
     routes: [
         ...home,
-        ...test,
         ...about,
         ...contact,
         ...cultrue,

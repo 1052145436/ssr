@@ -2,55 +2,55 @@
     <div class="home">
         <div class="cultrue-wapper">
             <div class="cultrue-inner">
-                <img src="../../assets/images/cultrue/img1.jpg" alt="" class="intro_bg1">
-                <HbHead :navIndex="2"></HbHead>
+                <img src="~@/assets/img/cultrue/img1.jpg" class="intro_bg1">
+                <HbHead headfont="图片"></HbHead>
                 <div class="txt-info">
-                    <h1>{{$t('message.globalCulture')}}</h1>
-                    <p>{{$t('message.cultrueTitle')}}</p>
+                    <h1>{{$t('about.globalCulture')}}</h1>
+                    <p>{{$t('about.cultrueTitle')}}</p>
                 </div>
             </div>
             <div class="cultrue-s2">
                 <div class="cultrue-s2-inner">
-                    <h1>{{$t('message.team')}}</h1>
-                    <p>{{$t('message.teamTitle')}}</p>
+                    <h1>{{$t('about.team')}}</h1>
+                    <p>{{$t('about.teamTitle')}}</p>
                 </div>
             </div>
             <div class="cultrue-s3">
                 <div class="cultrue-s3-inner">
-                    <img src="../../assets/images/cultrue/img2.jpg" alt="" class="s3_bg">
+                    <img src="~@/assets/img/cultrue/img2.jpg" class="s3_bg">
                     <ul>
                         <li>
-                            <img src="../../assets/images/cultrue/img3.jpg" alt="">
-                            <p>{{$t('message.teamTitle1')}}</p>
+                            <img src="~@/assets/img/cultrue/img3.jpg">
+                            <p>{{$t('about.teamTitle1')}}</p>
                         </li>
                         <li>
-                            <img src="../../assets/images/cultrue/img4.jpg" alt="">
-                            <p>{{$t('message.teamTitle2')}}</p>
+                            <img src="~@/assets/img/cultrue/img4.jpg">
+                            <p>{{$t('about.teamTitle2')}}</p>
                         </li>
                         <li>
-                            <img src="../../assets/images/cultrue/img5.jpg" alt="">
-                            <p>{{$t('message.teamTitle3')}}</p>
+                            <img src="~@/assets/img/cultrue/img5.jpg">
+                            <p>{{$t('about.teamTitle3')}}</p>
                         </li>
                     </ul>
                 </div>
             </div>
             <div class="cultrue-s2">
                 <div class="cultrue-s2-inner">
-                    <h1>{{$t('message.teamStyle')}}</h1>
-                    <p>{{$t('message.teamStyleDesc')}}</p>
+                    <h1>{{$t('about.teamStyle')}}</h1>
+                    <p>{{$t('about.teamStyleDesc')}}</p>
                 </div>
             </div>
             <div class="cultrue-s4">
                 <div class="cultrue-s4-inner">
                     <div class="img-box">
-                        <img src="../../assets/images/cultrue/img6.jpg" alt="" class="img6">
-                        <img src="../../assets/images/cultrue/img7.jpg" alt="" class="img7">
-                        <img src="../../assets/images/cultrue/img8.jpg" alt="" class="img8">
-                        <img src="../../assets/images/cultrue/img9.jpg" alt="" class="img9">
-                        <img src="../../assets/images/cultrue/img10.jpg" alt="" class="img10">
-                        <img src="../../assets/images/cultrue/img11.jpg" alt="" class="img11">
-                        <img src="../../assets/images/cultrue/img12.jpg" alt="" class="img12">
-                        <img src="../../assets/images/cultrue/img13.jpg" alt="" class="img13">
+                        <img src="~@/assets/img/cultrue/img6.jpg" class="img6">
+                        <img src="~@/assets/img/cultrue/img7.jpg" class="img7">
+                        <img src="~@/assets/img/cultrue/img8.jpg" class="img8">
+                        <img src="~@/assets/img/cultrue/img9.jpg" class="img9">
+                        <img src="~@/assets/img/cultrue/img10.jpg" class="img10">
+                        <img src="~@/assets/img/cultrue/img11.jpg" class="img11">
+                        <img src="~@/assets/img/cultrue/img12.jpg" class="img12">
+                        <img src="~@/assets/img/cultrue/img13.jpg" class="img13">
                     </div>
                 </div>
             </div>
@@ -61,8 +61,8 @@
     </div>
 </template>
 <script type="text/babel">
-    import HbHead from '../../components/HbHead'
-    import introVersion from '../../components/introVersion'
+    import HbHead from '@/components/HbHead'
+    import introVersion from '@/components/introVersion'
 
     export default {
         components: {
@@ -215,7 +215,7 @@
                             color: #fff;
                             letter-spacing: 10px;
                             font-weight: 200;
-                            background: url("../../assets/images/cultrue/blue_alpha.png") repeat;
+                            background: url("~@/assets/img/cultrue/blue_alpha.png") repeat;
                         }
                     }
                 }
