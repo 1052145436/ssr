@@ -7,7 +7,7 @@
             <div class="main-content">
                 <div class="session1">
                     <img src="../../assets/images/index/world.jpg" alt="" class="bg">
-                    <div class="title">中国造，惠全球</div>
+                    <div class="title">{{$t('message.topic')}}</div>
                 </div>
             </div>
             <div class="session2">
@@ -16,36 +16,36 @@
                         <div class="img-box">
                             <img src="../../assets/images/index/icon_time.png" alt="" class="icon_time">
                         </div>
-                        <div class="txt-box"><strong>2018</strong><span>年</span></div>
-                        <p>公司成立时间</p>
+                        <div class="txt-box"><strong>2018</strong><span>{{$t('message.year')}}</span></div>
+                        <p>{{$t('message.established')}}</p>
                     </li>
                     <li>
                         <div class="img-box">
                             <img src="../../assets/images/index/icon_money.png" alt="" class="icon_money">
                         </div>
-                        <div class="txt-box"><strong>100</strong><span>亿</span></div>
-                        <p>年营业额</p>
+                        <div class="txt-box"><strong>100</strong><span>{{$t('message.billion')}}</span></div>
+                        <p>{{$t('message.annualTurnover')}}</p>
                     </li>
                     <li>
                         <div class="img-box">
                             <img src="../../assets/images/index/icon_area.png" alt="" class="icon_area">
                         </div>
                         <div class="txt-box"><strong>10</strong><em>+</em></div>
-                        <p>业务覆盖区域</p>
+                        <p>{{$t('message.businessCoverageArea')}}</p>
                     </li>
                     <li>
                         <div class="img-box">
                             <img src="../../assets/images/index/icon_type.png" alt="" class="icon_type">
                         </div>
                         <div class="txt-box"><strong>30</strong><em>+</em></div>
-                        <p>商品品类</p>
+                        <p>{{$t('message.commodityCategory')}}</p>
                     </li>
                     <li>
                         <div class="img-box">
                             <img src="../../assets/images/index/icon_goods.png" alt="" class="icon_goods">
                         </div>
                         <div class="txt-box"><strong>20</strong><em>+</em></div>
-                        <p>商城商品数</p>
+                        <p>{{$t('message.numberOfMallItems')}}</p>
                     </li>
                 </ul>
                 <div class="clearfix"></div>
@@ -56,13 +56,12 @@
                     <img src="../../assets/images/about/about_bg.jpg" alt="" class="s4-bg">
                 </div>
                 <div class="session4-inner">
-                    <h1>公司简介</h1>
+                    <h1>{{$t('message.aboutGlobal')}}</h1>
                     <div class="white-bar"></div>
                     <div class="content-p">
-                        Global电子商务有限公司（简称Global）是一家专注于跨境贸易B2C电子商务公司。
-                        公司成立于2015年初，分别在广州、重庆、成都、青岛、香港、深圳、马来西亚等地设有公司和办公场所，现拥有一支数百人的精英团队。Global早期主营互联网行业海外流量服务及流量变现，2018年初开始主力运营综合类商城网站，以客户需求为导向，以诚信之道为根本，以优质服务为使命，以物惠全球为愿景，为全球用户提供多元化的互动式购物体验，全方位打造B2C跨境电子商务综合体。
+                        {{$t('message.aboutGlobalDesc')}}
                     </div>
-                    <h1>发展历程</h1>
+                    <h1>{{$t('message.history')}}</h1>
                     <div class="white-bar"></div>
                     <div class="develop-box">
                         <div class="develop-item">
@@ -112,7 +111,7 @@
                             <img src="../../assets/images/about/gradient_line.png" alt="" class="gradient_img">
                         </div>
                     </div>
-                    <h1>合作伙伴</h1>
+                    <h1>{{$t('message.partner')}}</h1>
                     <div class="white-bar"></div>
                     <ul class="item-list">
                         <li>

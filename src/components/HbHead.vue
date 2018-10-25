@@ -10,10 +10,10 @@
                 </span>
             </div>
             <div class="languageDiv" id="languageDiv">
-                <div @click="showLangSwapPanel()"><span>简体中文</span> <img src="~@/assets/images/index/down_cursor.png"/></div>
+                <div @click="showLangSwapPanel()"><span>{{$t('message.languagePlaceholder')}}</span> <img src="~@/assets/images/index/down_cursor.png"/></div>
                 <div class="tip" v-if="isShowLangSwapPanel == true">
                     <ul>
-                        <li v-for="(item,index) in languageList" :key="index" @click="swapLanguage(item.locale)">{{item.name}}</li>
+                        <li v-for="(item,index) in languageList" :key="index" @click="swapLanguage(item.locale)">{{$t(item.name)}}</li>
                     </ul>
                 </div>
             </div>
@@ -27,16 +27,12 @@
             return {
                 languageList:[
                     {
-                        name:'简体中文',
-                        locale:'zhCHS'
+                        name:'message.simplifiedChinese',
+                        locale:'cn'
                     },
                     {
-                        name:'English',
+                        name:'message.english',
                         locale:'en'
-                    },
-                    {
-                        name:'Melayu',
-                        locale:'Melayu'
                     }
                 ],
                 navList: [
@@ -46,19 +42,19 @@
                     },
                     {
                         name: 'introduce',
-                        language: 'message.introduce'
+                        language: 'message.businessIntroduction'
                     },
                     {
                         name: 'cultrue',
-                        language: 'message.company_cultrue'
+                        language: 'message.globalCulture'
                     },
                     {
                         name: 'recruit',
-                        language: 'message.global_recruit'
+                        language: 'message.joinUs'
                     },
                     {
                         name: 'supplier',
-                        language: 'message.supplier'
+                        language: 'message.toBeASupplier'
                     },
                     {
                         name: 'contact',
@@ -127,7 +123,7 @@
                     color: #fff;
                     font-size: 18px;
                     line-height: 18px;
-                    padding: 0px 20px;
+                    padding: 0px 10px;
                     letter-spacing: 1px;
                     font-weight: 400;
                     cursor: pointer;

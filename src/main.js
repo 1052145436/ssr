@@ -6,8 +6,7 @@ import App from '@/App'
 import router from '@/router'
 import store from '@/store'
 import LangEn from '../static/language/en'
-import LangZhCHS from '../static/language/zhCHS'
-import LangZhCHT from '../static/language/zhCHT'
+import LangCn from '../static/language/cn'
 
 import VueI18n from 'vue-i18n'
 
@@ -18,8 +17,7 @@ const i18n = new VueI18n({
     locale: 'en',
     messages: {
         'en': LangEn,
-        'zhCHS': LangZhCHS,
-        'zhCHT': LangZhCHT
+        'cn': LangCn
     }
 })
 
