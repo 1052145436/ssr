@@ -1,7 +1,7 @@
 <template>
     <div class="notice-wapper">
         <div class="head-div">
-            <HbHead headfont="图片"></HbHead>
+            <HbHead></HbHead>
         </div>
         <div class="notice-s2">
             <div class="notice-s2-inner">

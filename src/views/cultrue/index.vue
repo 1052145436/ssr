@@ -3,7 +3,7 @@
         <div class="cultrue-wapper">
             <div class="cultrue-inner">
                 <img src="~@/assets/img/cultrue/img1.jpg" class="intro_bg1">
-                <HbHead headfont="图片"></HbHead>
+                <HbHead></HbHead>
                 <div class="txt-info">
                     <h1>{{$t('about.globalCulture')}}</h1>
                     <p>{{$t('about.cultrueTitle')}}</p>

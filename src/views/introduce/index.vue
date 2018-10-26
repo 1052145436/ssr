@@ -2,7 +2,7 @@
     <div class="intro-wapper">
         <div class="intro-inner">
             <img src="~@/assets/img/introduce/intro_bg1.jpg" class="intro_bg1">
-            <HbHead headfont="图片"></HbHead>
+            <HbHead></HbHead>
             <div class="txt-info">
                 <h1>{{$t('about.busiTitle1')}}</h1>
                 <p>{{$t('about.busiTitle1Desc')}}</p>

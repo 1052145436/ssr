@@ -3,27 +3,27 @@
         <div class="intro-s6-inner">
             <ul class="align-left">
                 <li>
-                    <a href="javascript:"><em>{{$t('about.aboutUs')}}</em></a>
-                    <a href="javascript:">{{$t('about.aboutGlobal')}}</a>
-                    <a href="javascript:">{{$t('about.businessIntroduction')}}</a>
-                    <a href="javascript:">{{$t('about.history')}}</a>
-                    <a href="javascript:">{{$t('about.globalCulture')}}</a>
+                    <router-link :to="{ name: 'about' }"><em>{{$t('about.aboutUs')}}</em></router-link>
+                    <router-link :to="{ name: 'home' }">{{$t('about.aboutGlobal')}}</router-link>
+                    <router-link :to="{ name: 'introduce' }">{{$t('about.businessIntroduction')}}</router-link>
+                    <router-link :to="{ name: 'about' }">{{$t('about.aboutUs')}}</router-link>
+                    <router-link :to="{ name: 'cultrue' }">{{$t('about.globalCulture')}}</router-link>
                 </li>
                 <li>
-                    <a href="javascript:"><em>{{$t('about.recruitment')}}</em></a>
-                    <a href="javascript:">{{$t('about.schoolRecruit')}}</a>
-                    <a href="javascript:">{{$t('about.proffRecruit')}}</a>
+                    <router-link :to="{ name: 'recruit' }"><em>{{$t('about.recruitment')}}</em></router-link>
+                    <router-link :to="{ name: 'recruit' }">{{$t('about.recruitment')}}</router-link>
+                    <router-link :to="{ name: 'recruit' }" v-if="$i18n.locale !== 'en-US'">{{$t('about.talentRecommended')}}</router-link>
                 </li>
                 <li>
-                    <a href="javascript:"><em>{{$t('about.toBeASupplier')}}</em></a>
-                    <a href="javascript:">{{$t('about.application')}}</a>
-                    <a href="javascript:">{{$t('about.consultUs')}}</a>
+                    <router-link :to="{ name: 'supplier' }"><em>{{$t('about.toBeASupplier')}}</em></router-link>
+                    <router-link :to="{ name: 'supplier' }">{{$t('about.application')}}</router-link>
+                    <router-link :to="{ name: 'contact' }">{{$t('about.consultUs')}}</router-link>
                 </li>
                 <li>
-                    <a href="javascript:"><em>{{$t('about.contactUs')}}</em></a>
-                    <a href="javascript:">{{$t('about.headquartersAddress')}}</a>
-                    <a href="javascript:">{{$t('about.personnelRecruitment')}}</a>
-                    <a href="javascript:">{{$t('about.businessCooperation')}}</a>
+                    <router-link :to="{ name: 'contact' }"><em>{{$t('about.contactUs')}}</em></router-link>
+                    <router-link :to="{ name: 'contact' }">{{$t('about.headquartersAddress')}}</router-link>
+                    <router-link :to="{ name: 'recruit' }" v-if="$i18n.locale !== 'en-US'">{{$t('about.personnelRecruitment')}}</router-link>
+                    <router-link :to="{ name: 'supplier' }">{{$t('about.businessCooperation')}}</router-link>
                 </li>
             </ul>
             <ul class="align-right">
@@ -187,23 +187,23 @@
         background-color: #4c4c4c;
 
         .intro-s6-inner {
+            position:relative;
             width: 1200px;
             margin: 0px auto;
             padding-top: 26px;
             clear: both;
 
             .align-left {
-                width: 800px;
-                float: left;
+                width: 900px;
                 list-style: none;
                 margin:0px;
                 padding:0px;
+                display:table;
                 li {
-                    float: left;
-                    width: 162px;
-                    padding: 24px 0px;
+                    width:25%;
+                    display:table-cell;
                     a {
-                        width: 138px;
+                        width:100%;
                         margin: 0px auto;
                         display: block;
                         color: #fff;
@@ -226,11 +226,14 @@
             }
 
             .align-right {
+                position:absolute;
+                right:0;
+                top:0;
                 width: 400px;
-                float: right;
                 list-style: none;
                 margin:0px;
                 padding:0px;
+                top:58px;
                 li {
                     float: right;
                     width: 162px;

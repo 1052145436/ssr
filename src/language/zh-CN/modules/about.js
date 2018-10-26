@@ -1,6 +1,6 @@
 /**
  *
- * @author 请叫我蛋蛋哥 <76573917@qq.com>
+ * @author lucy <76573917@qq.com>
  * @created 2018/10/25 15:31
  */
 module.exports = {
@@ -62,9 +62,24 @@ module.exports = {
     teamStyle:'团队风采',
     teamStyleDesc:'加入一个年轻的团队，碰撞思想的火花；\n走进一个广阔的世界，开启筑梦的旅途。',
     stage:'梦想舞台, 虚位以待；携手同行，撞出未来。',
-    socialRecruit:'社会招聘',
-    schoolRecruit:'校园招聘',
-    proffRecruit:'人才推荐',
+    socialRecruitment:'社会招聘',
+    socialRecruitmentDesc:'梦想舞台, 虚位以待；携手同行，撞出未来。',
+    socialRecruitmentDesc1:'技术研发体系',
+    socialRecruitmentDesc2:'物流仓储体系',
+    socialRecruitmentDesc3:'供应链体系',
+    socialRecruitmentDesc4:'营销体系',
+    socialRecruitmentDesc5:'运营体系',
+    socialRecruitmentDesc6:'职能体系',
+    campusRecruitment:'校园招聘',
+    campusRecruitmentDesc:'让世界了解中国造，就差一个你！',
+    campusRecruitmentDesc1:'提交简历',
+    campusRecruitmentDesc2:'笔试环节',
+    campusRecruitmentDesc3:'面试环节',
+    campusRecruitmentDesc4:'录用通知',
+    campusRecruitmentDesc5:'正式入职',
+    talentRecommended:'人才推荐',
+    recruitmentProcess:'招聘流程',
+    recruitmentPosition:'招聘职位',
     gzHr:'广州HR',
     cqHr:'重庆HR',
     contactMan:'联系人',
@@ -78,7 +93,7 @@ module.exports = {
     personnelRecruitment:'人事招聘',
     businessCooperation:'商务合作',
     cooperTitle:'合作共赢，互惠互利',
-    supplierApplication:'申请流程<',
+    supplierApplication:'申请流程',
     applicationProcess1:'提交申请',
     applicationProcess2:'招商洽谈',
     applicationProcess3:'合作确定',
@@ -97,5 +112,17 @@ module.exports = {
     headquartersAddress:'总部地址',
     recruitment:'人才招聘',
     application:'供应商申请',
-    consultUs:'咨询我们'
+    consultUs:'咨询我们',
+    concatAddress:'地址',
+    cqContactMan:'秦女士',
+    cqContactPhone:'68181048、13883541386',
+    cqContactEmail:'jean@iglobalgroup.cn',
+    cqContactAddress:'重庆市渝中区上清寺路9号环球广场互联网产业园20楼',
+    gzContactMan:'丁小姐',
+    gzContactPhone:'13826478873',
+    gzContactEmail:'berry@youmobi.com',
+    gzContactAddress:'广州市天河区龙怡路117号银汇大厦23楼',
+    campusRecruitment:'招聘流程'
+
+
 }

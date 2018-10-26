@@ -1,7 +1,7 @@
 <template>
     <div class="home">
         <div style="width:100%;min-width:1200px;background:#000;">
-            <HbHead headfont="图片"></HbHead>
+            <HbHead></HbHead>
         </div>
         <div class="contact-wapper">
             <div class="contact-s2">
@@ -12,23 +12,25 @@
                             <li>
                                 <h3><img src="~@/assets/img/contact/icon_man.png">{{$t('about.personnelRecruitment')}}</h3>
                                 <p>{{$t('about.cqHr')}}</p>
-                                <p>{{$t('about.contactMan')}}：X先生</p>
-                                <p>{{$t('about.contactPhone')}}：134566578;</p>
-                                <p>{{$t('about.contactEmail')}}：134566578;</p>
+                                <p>{{$t('about.contactMan')}}：{{$t('about.cqContactMan')}}</p>
+                                <p>{{$t('about.contactPhone')}}：{{$t('about.cqContactPhone')}};</p>
+                                <p>{{$t('about.contactEmail')}}：{{$t('about.cqContactEmail')}};</p>
+                                <p>{{$t('about.concatAddress')}}：{{$t('about.cqContactAddress')}};</p>
                             </li>
                             <li>
                                 <h3><img src="~@/assets/img/contact/icon_hand.png">{{$t('about.businessCooperation')}}</h3>
                                 <p>{{$t('about.gzHr')}}</p>
-                                <p>{{$t('about.contactMan')}}：X先生</p>
-                                <p>{{$t('about.contactPhone')}}：134566578;</p>
-                                <p>{{$t('about.contactEmail')}}：134566578;</p>
+                                <p>{{$t('about.contactMan')}}：{{$t('about.gzContactMan')}}</p>
+                                <p>{{$t('about.contactPhone')}}：{{$t('about.gzContactPhone')}};</p>
+                                <p>{{$t('about.contactEmail')}}：{{$t('about.gzContactEmail')}};</p>
+                                <p>{{$t('about.concatAddress')}}：{{$t('about.gzContactAddress')}};</p>
                             </li>
                         </ul>
                     </div>
                     <div class="clearfix"></div>
                     <h1>{{$t('about.officeAddress')}}</h1>
                     <div class="ul-box">
-                        <ul>
+                        <ul style="margin-left:230px;width:700px;">
                             <li>
                                 <h3><img src="~@/assets/img/contact/icon_point.png">{{$t('about.addressPoint1')}}</h3>
                             </li>
@@ -189,13 +191,15 @@
                     margin: 0px auto;
                     ul {
                         clear: both;
-                        width: 700px;
-                        margin-left: 300px;
+                        width: 1000px;
+                        padding:0px 50px;
+                        margin:0px auto;
                         list-style: none;
                         li {
-                            width: 350px;
+                            width: 50%;
                             height: auto;
-                            float: left;
+                            float:left;
+                            overflow:hidden;
                             h3 {
                                 font-size: 28px;
                                 line-height: 45px;

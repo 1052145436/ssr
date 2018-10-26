@@ -1,6 +1,6 @@
 /**
  *
- * @author 请叫我蛋蛋哥 <76573917@qq.com>
+ * @author lucy <76573917@qq.com>
  * @created 2018/10/25 15:31
  */
 module.exports = {
@@ -62,9 +62,24 @@ module.exports = {
     teamStyle:'team style',
     teamStyleDesc:'Join a rising team and hit the spark of ideas; Walk into a wide world and start the journey of building a dream',
     stage:'Dream stage, empty waiting FOR YOU',
-    socialRecruit:'social recruit',
-    schoolRecruit:'school recruit',
-    proffRecruit:'recommend',
+    socialRecruitment:'SocialRecruitment',
+    socialRecruitmentDesc:'Dream stage, empty waiting FOR YOU',
+    socialRecruitmentDesc1:'Technology',
+    socialRecruitmentDesc2:'Logistics Storage',
+    socialRecruitmentDesc3:'Supply Chain',
+    socialRecruitmentDesc4:'Marketing',
+    socialRecruitmentDesc5:'Operation',
+    socialRecruitmentDesc6:'Administration',
+    campusRecruitment:'CampusRecruitment',
+    campusRecruitmentDesc:'Let the world understand Chinese Business, start with you',
+    campusRecruitmentDesc1:'Submit your profile',
+    campusRecruitmentDesc2:'Written Test',
+    campusRecruitmentDesc3:'Interview',
+    campusRecruitmentDesc4:'Notification',
+    campusRecruitmentDesc5:'Induction',
+    talentRecommended:'TalentRecommended',
+    recruitmentProcess:"Recruitment Process",
+    recruitmentPosition:'Recruitment Position',
     gzHr:'HR(Guangzhou)',
     cqHr:'HR(CHongqing)',
     contactMan:'Name',
@@ -98,5 +113,15 @@ module.exports = {
     headquartersAddress:'Headquarters Address',
     recruitment:'Recruitment',
     application:'Application',
-    consultUs:'Consult us'
+    consultUs:'Consult us',
+    concatAddress:'address',
+    cqContactMan:'Ms. Qin',
+    cqContactPhone:'68181048、13883541386',
+    cqContactEmail:'jean@iglobalgroup.cn',
+    cqContactAddress:'20th Floor, Global Plaza Internet Industry Park, 9 Shangqingsi Road, Yuzhong District, Chongqing',
+    gzContactMan:'Miss Ding',
+    gzContactPhone:'13826478873',
+    gzContactEmail:'berry@youmobi.com',
+    gzContactAddress:'23rd Floor, Yinhui Building, No. 117, Longyi Road, Tianhe District, Guangzhou',
+    campusRecruitment:'CampusRecruitment'
 }

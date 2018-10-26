@@ -5,7 +5,7 @@
             <div class="nav">
                 <router-link v-for="(item, key) in $t('common.menu')"
                              :key="key"
-                             :to="{ name: key }">{{ item }}</router-link>
+                             :to="{ name: key }" v-if="item != 'JoinUs'">{{ item }}</router-link>
             </div>
             <Languages />
         </div>
@@ -18,7 +18,13 @@
     export default {
         name: 'HbHead',
         components: { Languages },
-        props: [ 'navIndex' ]
+        props: [ 'navIndex' ],
+        methods:{
+
+        },
+        mounted(){
+
+        }
     }
 </script>
 
@@ -45,13 +51,13 @@
 
             .nav {
                 text-align: right;
-                padding-right: 120px;
+                /*padding-right: 120px;*/
                 margin: 0px;
                 a {
                     color: #fff;
                     font-size: 18px;
                     line-height: 18px;
-                    padding: 0px 10px;
+                    padding: 0px 20px;
                     letter-spacing: 1px;
                     font-weight: 400;
                     cursor: pointer;
@@ -78,10 +84,10 @@
             }
 
             .languages {
+                position: absolute;
                 width: 120px;
                 height: 20px;
-                position: absolute;
-                right: 0;
+                right: -100px;
                 top: 25px;
                 cursor: pointer;
             }

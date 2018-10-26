@@ -15,7 +15,7 @@ import zhCN from '@/language/zh-CN'
 Vue.use(VueI18n)
 
 const i18n = new VueI18n({
-    locale: 'en-US',
+    locale: 'zh-CN',
     messages: {
         'en-US': enUS,
         'zh-CN': zhCN

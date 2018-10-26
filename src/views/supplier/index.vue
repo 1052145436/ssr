@@ -2,7 +2,7 @@
     <div class="supplier-wapper" id="supplierIndex">
         <div class="supplier-inner">
             <img src="~@/assets/img/supplier/supplier_bg.jpg" class="intro_bg1">
-            <hb-head headfont="图片"></hb-head>
+            <hb-head></hb-head>
             <p>{{$t('about.cooperTitle')}}</p>
         </div>
         <div class="supplier-s1">
